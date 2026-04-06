@@ -27,7 +27,6 @@ const Footer = () => {
     [t("legal")]: [
       { name: t("privacy"), href: "#" as const },
       { name: t("terms"), href: "#" as const },
-      { name: t("cookies"), href: "#" as const },
     ],
   };
 

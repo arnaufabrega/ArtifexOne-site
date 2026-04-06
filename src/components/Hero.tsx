@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import Threads from "@/components/Threads";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { RealEstateIllustration, DentalIllustration, CustomIllustration } from "@/components/CardIllustrations";
 
 export const Hero = () => {
   const t = useTranslations();
@@ -15,18 +16,21 @@ export const Hero = () => {
       intro: "Capture new owners before your competitors, respond to buyer leads in seconds, and automate contracts and coordination. Your agents focus on selling.",
       color: "bg-[#E8F0FE]",
       href: "/real-estate-os" as const,
+      illustration: <RealEstateIllustration />,
     },
     {
       title: "Dental OS",
       intro: "Reactivate dormant patients via WhatsApp, automate booking and reminders, and fill empty chairs. Your front desk stops chasing, patients start coming back.",
       color: "bg-[#F5F5F7]",
       href: "/dental-os" as const,
+      illustration: <DentalIllustration />,
     },
     {
       title: "Custom Solutions",
       intro: "We audit your operations, find where time and money are leaking, and build AI systems around how you actually work. No templates, no forced migrations.",
       color: "bg-[#F0F4F8]",
       href: "/custom-solutions" as const,
+      illustration: <CustomIllustration />,
     },
   ];
 
@@ -111,18 +115,8 @@ export const Hero = () => {
                     {card.intro}
                   </p>
 
-                  <div className={`mt-auto aspect-[4/3] rounded-2xl ${card.color} border border-sand/50 overflow-hidden relative`}>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-1/2 h-[1px] bg-charcoal/5 rotate-45" />
-                      <div className="w-1/2 h-[1px] bg-charcoal/5 -rotate-45" />
-                    </div>
-                    <div className="absolute top-4 left-4 flex gap-1.5">
-                      <div className="w-2 h-2 rounded-full bg-charcoal/10" />
-                      <div className="w-2 h-2 rounded-full bg-charcoal/10" />
-                      <div className="w-2 h-2 rounded-full bg-charcoal/10" />
-                    </div>
-                    <div className="absolute bottom-4 left-4 right-4 h-1/2 bg-white/50 rounded-xl border border-white/50" />
-                    <div className="absolute top-1/4 right-4 w-12 h-12 bg-white/80 rounded-lg shadow-sm" />
+                  <div className={`mt-auto rounded-2xl ${card.color} border border-sand/50 overflow-hidden`}>
+                    {card.illustration}
                   </div>
                 </Link>
               </div>

@@ -35,20 +35,6 @@ export default function Blog() {
       date: "Coming Soon",
       readTime: "10 min read"
     },
-    {
-      title: "AI Voice Agents: Beyond the Chatbot",
-      excerpt: "Why voice AI is the most underrated automation channel, and how our clients use it to handle thousands of calls automatically.",
-      category: "Product",
-      date: "Coming Soon",
-      readTime: "7 min read"
-    },
-    {
-      title: "Data Privacy in the Age of AI Automation",
-      excerpt: "How we build HIPAA-ready, GDPR-compliant AI systems without compromising on speed or capability.",
-      category: "Security",
-      date: "Coming Soon",
-      readTime: "6 min read"
-    }
   ];
 
   return (
@@ -60,15 +46,15 @@ export default function Blog() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="max-w-3xl"
+            className="text-center mx-auto"
           >
             <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
               Blog
             </span>
-            <h1 className="font-display text-4xl font-bold tracking-tight text-charcoal sm:text-6xl lg:text-7xl leading-[1.05]">
+            <h1 className="font-display text-4xl font-bold tracking-tight text-charcoal sm:text-5xl leading-[1.1]">
               Insights on AI, automation, and growth.
             </h1>
-            <p className="mt-8 text-lg leading-8 text-text-muted max-w-2xl sm:text-xl">
+            <p className="mt-6 text-lg leading-8 text-text-muted max-w-2xl mx-auto sm:text-xl">
               Deep dives into the strategies, technology, and case studies behind modern AI automation.
             </p>
           </motion.div>

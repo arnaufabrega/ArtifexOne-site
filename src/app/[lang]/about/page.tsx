@@ -4,29 +4,10 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
 export default function About() {
-  const pillars = [
-    {
-      number: "01",
-      title: "Consultative",
-      desc: "We understand your business before we propose anything. Every engagement starts with an operational audit.",
-    },
-    {
-      number: "02",
-      title: "Hands-on",
-      desc: "We don't hand you a login and walk away. We build, deploy, train your team, and stay on to manage.",
-    },
-    {
-      number: "03",
-      title: "Results-driven",
-      desc: "We measure success by the impact we generate for your business. Not by features shipped or licenses sold.",
-    },
-  ];
-
   return (
     <div className="flex flex-col min-h-screen bg-cream font-sans overflow-x-clip">
       {/* Hero */}
       <section className="relative pt-28 pb-32 px-6 sm:pt-40 sm:pb-40 bg-cream overflow-hidden">
-        {/* Faded watermark */}
         <div
           className="absolute inset-0 flex items-center justify-center select-none pointer-events-none z-0"
           aria-hidden="true"
@@ -46,124 +27,147 @@ export default function About() {
                 About Autonymo
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-charcoal sm:text-5xl lg:text-6xl leading-[1.05]">
-                We build AI systems
+                The AI transition is happening.
                 <br />
-                <span className="text-charcoal/40">that actually work.</span>
+                <span className="text-charcoal/40">We make sure you&apos;re on the right side of it.</span>
               </h1>
             </div>
             <div>
               <p className="text-lg leading-relaxed text-text-muted sm:text-xl">
-                Autonymo is an AI studio that helps businesses integrate
-                artificial intelligence into their operations. Custom
-                operating systems, not generic tools. We&apos;re consultative,
-                hands-on, and results-driven.
+                Not as a consultant. Not as a software vendor. As your external AI team.
               </p>
-              <div className="mt-8 flex flex-wrap gap-x-8 gap-y-4 text-sm font-medium text-charcoal">
-                <div className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-accent-blue" />
-                  Real Estate
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-accent-blue" />
-                  Healthcare
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-accent-blue" />
-                  Custom Solutions
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Pillars */}
-      <section className="py-20 px-6 bg-cream">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {pillars.map((pillar) => (
-              <div
-                key={pillar.number}
-                className="group p-8 rounded-xl bg-white border border-sand hover:border-warm-gray transition-colors duration-500"
-              >
-                <span className="font-display text-3xl font-bold text-sand/40 group-hover:text-accent-blue/40 transition-colors duration-300 mb-6 block">
-                  {pillar.number}
-                </span>
-                <h3 className="font-display text-xl font-bold text-charcoal mb-3">
-                  {pillar.title}
-                </h3>
-                <p className="text-text-muted leading-relaxed text-sm">
-                  {pillar.desc}
-                </p>
-              </div>
-            ))}
+      {/* The Shift */}
+      <section className="py-24 px-6 bg-cream border-t border-sand/50">
+        <div className="max-w-4xl mx-auto">
+          <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
+            The Shift
+          </span>
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-10">
+            Something permanent is happening.
+          </h2>
+          <div className="space-y-6 text-lg sm:text-xl leading-relaxed text-text-muted">
+            <p>
+              For decades, the gap between large corporations and small businesses was defined by access. Access to talent, to technology, to the infrastructure that compounds over time.
+            </p>
+            <p>
+              AI is collapsing that gap. For the first time, a 30-person manufacturing company can operate with the same intelligence infrastructure as a Fortune 500. The tools exist. The models exist. What most businesses lack is the team to put it together and keep it running.
+            </p>
+            <p className="text-charcoal font-medium">
+              That&apos;s the opening Autonymo was built for.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Story */}
-      <section className="py-24 px-6 bg-cream border-y border-sand">
+      {/* Who We Are */}
+      <section className="py-24 px-6 bg-cream border-t border-sand/50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">
-                Our Story
+              <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
+                Who We Are
+              </span>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-8">
+                We don&apos;t consult. We build.
               </h2>
-              <h3 className="font-display text-4xl sm:text-5xl font-bold text-charcoal leading-tight mb-6">
-                Born from a simple observation.
-              </h3>
-              <div className="space-y-4 text-text-muted text-base leading-relaxed">
+              <div className="space-y-5 text-base leading-relaxed text-text-muted">
                 <p>
-                  Most businesses know they need AI, but they don&apos;t know where
-                  to start. The market is flooded with generic chatbots and SaaS
-                  tools that promise automation but deliver complexity.
+                  Autonymo is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don&apos;t know where to start, or have tried and been disappointed.
                 </p>
                 <p>
-                  We founded Autonymo to bridge that gap. We&apos;re the senior
-                  advisor who also rolls up their sleeves, helping businesses
-                  identify the highest-impact AI opportunities, then building
-                  and deploying the systems to realize them.
+                  We go inside the business. We spend time understanding how it actually works: the processes, the bottlenecks, the workarounds that have existed for years. Then we build AI systems that fit into that reality. Not templates. Not off-the-shelf platforms. Systems designed for how this specific business operates.
                 </p>
                 <p>
-                  Today, we work with teams across real estate, healthcare, and
-                  enterprise to build AI systems that don&apos;t just look smart,
-                  they adapt, deliver, and scale.
+                  We deploy fast. First solution live in 4 weeks. Then we stay on, monitoring, improving, and expanding as the business grows and as AI evolves.
+                </p>
+                <p className="text-charcoal font-medium">
+                  Every improvement in AI makes our service faster, cheaper, and more powerful. We pass that directly to our clients.
                 </p>
               </div>
             </div>
-            <div className="p-8 rounded-xl bg-white border border-sand">
-              <div className="aspect-[4/3] rounded-xl bg-sand/20 border border-sand/50 overflow-hidden relative flex items-center justify-center">
-                <Image
-                  src="/logo.png"
-                  alt="Autonymo"
-                  width={120}
-                  height={120}
-                  className="opacity-20"
-                />
+            <div className="grid grid-cols-1 gap-4">
+              <div className="p-8 rounded-xl bg-white border border-sand">
+                <span className="font-display text-3xl font-bold text-sand/40 mb-4 block">01</span>
+                <h3 className="font-display text-lg font-bold text-charcoal mb-2">Based in Barcelona</h3>
+                <p className="text-text-muted text-sm leading-relaxed">Working with businesses across Spain and Europe in English, Spanish, and Catalan.</p>
+              </div>
+              <div className="p-8 rounded-xl bg-white border border-sand">
+                <span className="font-display text-3xl font-bold text-sand/40 mb-4 block">02</span>
+                <h3 className="font-display text-lg font-bold text-charcoal mb-2">Live in 4 weeks</h3>
+                <p className="text-text-muted text-sm leading-relaxed">First automation deployed fast. Then we stay on to manage, optimize, and expand.</p>
+              </div>
+              <div className="p-8 rounded-xl bg-white border border-sand">
+                <span className="font-display text-3xl font-bold text-sand/40 mb-4 block">03</span>
+                <h3 className="font-display text-lg font-bold text-charcoal mb-2">No lock-in</h3>
+                <p className="text-text-muted text-sm leading-relaxed">You keep everything we build. No proprietary platforms, no forced migrations.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Founder */}
-      <section className="py-24 px-6 bg-cream border-b border-sand">
+      {/* Why We Exist */}
+      <section className="py-24 px-6 bg-charcoal text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
+            Why We Exist
+          </span>
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-8">
+            For every &euro;1 spent on software,<br />&euro;6 are spent on the work.
+          </h2>
+          <div className="space-y-6 text-lg sm:text-xl leading-relaxed text-white/60 max-w-3xl mx-auto">
+            <p>
+              The AI industry has spent years building tools for the people doing the work. Copilots. Assistants. Productivity layers.
+            </p>
+            <p>
+              We think the bigger opportunity is different. Most businesses don&apos;t need another tool. They need someone to do the work, and do it better than any human team could.
+            </p>
+            <p className="text-white font-medium">
+              That&apos;s what autopilots do. And that&apos;s what we build.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Team */}
+      <section className="py-24 px-6 bg-cream border-b border-sand/50">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-12">
+          <div className="max-w-3xl mb-12">
             <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
-              The Founder
+              The Team
             </span>
-            <h2 className="font-display text-4xl sm:text-5xl font-bold text-charcoal leading-tight">
-              A team built to deliver.
+            <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">
+              Based in Barcelona. Built to move fast.
             </h2>
+            <p className="text-lg leading-relaxed text-text-muted">
+              We&apos;re a small team of engineers, operators, and builders. We move fast, we care about every client as if it were our own business, and we measure ourselves by the impact we generate, not by the hours we bill or the licenses we sell.
+            </p>
+            <p className="text-lg leading-relaxed text-charcoal font-medium mt-4">
+              We&apos;re early. We&apos;re hungry. And we believe the companies that adopt AI now will define their industries for the next decade.
+            </p>
           </div>
 
+          {/* Founder */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
             <div>
-              <div className="h-full min-h-[400px] rounded-2xl bg-sand/40 border border-sand flex items-center justify-center overflow-hidden">
-                <span className="text-warm-gray text-sm font-medium tracking-wide uppercase">
-                  Photo
-                </span>
+              <div className="relative p-3">
+                <div className="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-accent-blue/40 rounded-tl-2xl" />
+                <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-accent-blue/40 rounded-tr-2xl" />
+                <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-accent-blue/40 rounded-bl-2xl" />
+                <div className="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-accent-blue/40 rounded-br-2xl" />
+                <Image
+                  src="/images/arnau-fabrega.png"
+                  alt="Arnau Fabrega"
+                  width={560}
+                  height={480}
+                  className="rounded-xl object-cover w-full"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -193,20 +197,34 @@ export default function About() {
 
       {/* CTA */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-7xl mx-auto p-12 md:p-20 rounded-2xl bg-charcoal text-white text-center relative overflow-hidden">
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Want to work with us?
-          </h2>
-          <p className="text-white/70 text-lg mb-10 max-w-xl mx-auto">
-            Whether you&apos;re exploring AI for the first time or scaling an
-            existing system, we&apos;d love to talk.
-          </p>
-          <Link
-            href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
-            className="inline-flex items-center justify-center font-medium tracking-tight text-white text-lg bg-accent-blue rounded-xl px-8 py-2.5 hover:opacity-90 transition-colors active:scale-95 cursor-pointer"
-          >
-            Get In Touch
-          </Link>
+        <div className="max-w-7xl mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-accent-blue/10 to-transparent pointer-events-none" />
+          <div className="absolute bottom-0 left-0 w-1/4 h-1/2 bg-gradient-to-tr from-accent-blue/5 to-transparent pointer-events-none" />
+          <div className="absolute -bottom-16 -right-16 pointer-events-none select-none opacity-[0.06] blur-sm" aria-hidden="true">
+            <Image src="/logo.png" alt="" width={400} height={400} />
+          </div>
+
+          <div className="relative z-10 p-12 md:p-20 flex flex-col md:flex-row md:items-center md:justify-between gap-10">
+            <div className="max-w-xl">
+              <h2 className="font-display text-3xl md:text-5xl font-bold mb-4 leading-tight">
+                If you&apos;re ready to start,
+                <br />
+                so are we.
+              </h2>
+              <p className="text-white/60 text-lg leading-relaxed">
+                Book a free 30-minute assessment. We&apos;ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.
+              </p>
+            </div>
+            <div className="flex flex-col items-start md:items-end gap-4 shrink-0">
+              <Link
+                href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
+                className="inline-flex items-center justify-center font-medium tracking-tight text-charcoal text-lg bg-white rounded-xl px-8 py-4 hover:bg-white/90 transition-colors active:scale-95 cursor-pointer"
+              >
+                Book a Free Assessment
+              </Link>
+              <span className="text-white/30 text-sm">No commitment required</span>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -31,6 +31,7 @@ export const Navbar = () => {
       icon: Building2,
       color: "bg-[#E8F0FE]",
       iconColor: "text-blue-600",
+      cubeImage: "/images/real-estate-os-cube.png",
     },
     {
       title: "Dental OS",
@@ -39,6 +40,7 @@ export const Navbar = () => {
       icon: Heart,
       color: "bg-[#F5F5F7]",
       iconColor: "text-emerald-600",
+      cubeImage: "/images/dental-os-cube.png",
     },
     {
       title: t("customSolutions"),
@@ -47,13 +49,14 @@ export const Navbar = () => {
       icon: Settings2,
       color: "bg-[#F0F4F8]",
       iconColor: "text-amber-600",
+      cubeImage: "/images/custom-solutions-cube.png",
     },
   ];
 
   const moreLinks = [
     { title: t("about"), href: "/about" as const },
     { title: t("blog"), href: "/blog" as const },
-    { title: t("caseStudies"), href: "/case-studies" as const },
+    { title: t("process"), href: { pathname: "/", hash: "how-it-works" } as const },
   ];
 
   const locales: Locale[] = ["en", "es", "ca"];
@@ -90,15 +93,7 @@ export const Navbar = () => {
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-1.5 group">
-            <Image
-              src="/logo.png"
-              alt="Autonymo"
-              width={28}
-              height={28}
-              className="w-7 h-7"
-              priority
-            />
+          <Link href="/" className="flex items-center group">
             <span className="font-heading text-xl font-bold tracking-tight text-charcoal">
               Autonymo
             </span>
@@ -158,7 +153,7 @@ export const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -4 }}
                     transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                    className="absolute top-[calc(100%+8px)] right-0 w-36 bg-white/95 border border-sand rounded-xl shadow-lg p-1 z-50"
+                    className="absolute top-[calc(100%+8px)] right-0 w-36 bg-white border border-sand rounded-xl shadow-lg p-1 z-50"
                   >
                     <div className="flex flex-col gap-0.5">
                       {locales.map((loc) => (
@@ -222,7 +217,7 @@ export const Navbar = () => {
                 key={index}
                 href={item.href}
                 onClick={closeAll}
-                className="flex flex-col h-full group bg-white/95 border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
+                className="flex flex-col h-full group bg-white border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
               >
                 <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${item.color} pointer-events-none`} style={{ opacity: 0 }} />
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-[0.04] transition-opacity duration-500 bg-gradient-to-br from-transparent via-transparent to-current pointer-events-none" />
@@ -244,18 +239,15 @@ export const Navbar = () => {
                     {item.description}
                   </p>
 
-                  <div className={`mt-auto aspect-[4/3] rounded-lg ${item.color} border border-sand/50 overflow-hidden relative`}>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-1/2 h-[1px] bg-charcoal/5 rotate-45" />
-                      <div className="w-1/2 h-[1px] bg-charcoal/5 -rotate-45" />
-                    </div>
-                    <div className="absolute top-2 left-2 flex gap-1">
-                      <div className="w-1.5 h-1.5 rounded-full bg-charcoal/10" />
-                      <div className="w-1.5 h-1.5 rounded-full bg-charcoal/10" />
-                      <div className="w-1.5 h-1.5 rounded-full bg-charcoal/10" />
-                    </div>
-                    <div className="absolute bottom-2 left-2 right-2 h-1/2 bg-white/50 rounded-md border border-white/50" />
-                    <div className="absolute top-1/4 right-2 w-6 h-6 bg-white/80 rounded shadow-sm" />
+                  <div className={`mt-auto aspect-[4/3] rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
+                    <Image
+                      src={item.cubeImage}
+                      alt={item.title}
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </Link>
@@ -274,8 +266,11 @@ export const Navbar = () => {
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
             className="absolute top-[calc(100%+6px)] left-3 right-3 sm:left-0 sm:right-0 z-40 hidden md:grid grid-cols-2 gap-2"
           >
-            <div className="bg-white/95 border border-sand rounded-2xl shadow-lg p-6 h-full">
-              <div className="flex flex-col gap-0.5 items-start">
+            <div className="bg-white border border-sand rounded-2xl shadow-lg p-6 h-full relative overflow-hidden">
+              <div className="absolute -bottom-10 right-8 pointer-events-none select-none opacity-[0.08] blur-[2px]" aria-hidden="true">
+                <Image src="/logo.png" alt="" width={320} height={320} />
+              </div>
+              <div className="relative z-10 flex flex-col gap-0.5 items-start">
                 {moreLinks.map((link, index) => (
                   <Link
                     key={index}
@@ -293,11 +288,11 @@ export const Navbar = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <div className="bg-white/95 border border-sand rounded-2xl shadow-lg p-5 flex flex-col overflow-hidden">
+              <div className="bg-white border border-sand rounded-2xl shadow-lg p-5 flex flex-col overflow-hidden">
                 <h5 className="text-sm font-bold text-charcoal mb-1">
                   {t("newsletter")}
                 </h5>
-                <p className="text-[11px] text-text-muted leading-relaxed mb-3">
+                <p className="text-sm text-text-muted leading-relaxed mb-3">
                   {t("newsletterDesc")}
                 </p>
                 <form
@@ -325,7 +320,7 @@ export const Navbar = () => {
                 <Link
                   href="/blog"
                   onClick={closeAll}
-                  className="bg-white/95 border border-sand rounded-2xl shadow-lg p-4 flex flex-col hover:border-warm-gray transition-colors group cursor-pointer overflow-hidden"
+                  className="bg-white border border-sand rounded-2xl shadow-lg p-4 flex flex-col hover:border-warm-gray transition-colors group cursor-pointer overflow-hidden"
                 >
                   <div className="flex items-center justify-between mb-1.5">
                     <h5 className="text-sm font-bold text-charcoal">
@@ -349,13 +344,7 @@ export const Navbar = () => {
                       rel="noopener noreferrer"
                       className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
                     >
-                      <span className="text-sm">💼</span>
-                    </a>
-                    <a
-                      href="#"
-                      className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                    >
-                      <span className="text-sm">📸</span>
+                      <img src="/icons/linkedin.svg" alt="LinkedIn" width={14} height={14} className="invert" />
                     </a>
                   </div>
                 </div>
@@ -373,7 +362,7 @@ export const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute top-[calc(100%+8px)] left-3 right-3 md:hidden z-40 bg-white/95 border border-sand rounded-2xl shadow-xl p-6 max-h-[80vh] overflow-y-auto"
+            className="absolute top-[calc(100%+8px)] left-3 right-3 md:hidden z-40 bg-white border border-sand rounded-2xl shadow-xl p-6 max-h-[80vh] overflow-y-auto"
           >
             <div className="mb-6">
               <h5 className="text-xs font-bold text-text-muted uppercase tracking-widest mb-3">

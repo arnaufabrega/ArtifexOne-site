@@ -232,14 +232,6 @@ export default function HealthServicesOS() {
         </div>
       </section>
 
-      {/*  T2: SOCIAL PROOF BAR  */}
-      <section className="py-4 px-6 bg-white border-y border-sand">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-center text-sm font-medium text-text-muted/60 tracking-wide">
-            Deployed for dental clinics across Spain.
-          </p>
-        </div>
-      </section>
 
       {/*  T3: THE PROBLEM  */}
       <section className="py-24 px-6 bg-cream">
