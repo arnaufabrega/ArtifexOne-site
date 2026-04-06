@@ -1,18 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
-  Heart,
   Calendar,
-  ShieldCheck,
-  FileText,
   Clock,
-  Phone,
-  Activity,
   ArrowUpRight,
   ArrowDown,
   Users,
-  Stethoscope,
   ChevronDown,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -30,126 +25,15 @@ function HealthIllustration() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className="relative w-full max-w-xl mx-auto"
     >
-      <div className="absolute -inset-12 bg-gradient-to-br from-green-500/[0.03] via-transparent to-sand/10 rounded-[3rem] pointer-events-none" />
-      <div className="relative bg-white rounded-2xl border border-sand/80 shadow-lg overflow-hidden">
-        <div className="flex items-center justify-between px-5 py-3 bg-light-gray border-b border-sand/60">
-          <div className="flex gap-1.5">
-            <div className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
-            <div className="w-[10px] h-[10px] rounded-full bg-[#FEBC2E]" />
-            <div className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
-          </div>
-          <div className="flex items-center gap-1.5 bg-white rounded-md border border-sand/60 px-2.5 py-1">
-            <div className="w-3 h-3 rounded-sm bg-green-100 flex items-center justify-center">
-              <Stethoscope className="w-2 h-2 text-green-600" />
-            </div>
-            <span className="text-[10px] text-text-muted font-medium">app.autonymo.com/practice</span>
-          </div>
-          <div className="w-14" />
-        </div>
-        <div className="flex">
-          <div className="w-[52px] bg-charcoal flex flex-col items-center py-4 gap-3.5 shrink-0">
-            <div className="w-7 h-7 rounded-lg bg-green-500 flex items-center justify-center">
-              <Heart className="w-3.5 h-3.5 text-white" />
-            </div>
-            {[Calendar, Users, Activity, FileText, ShieldCheck].map((Icon, i) => (
-              <div key={i} className={`w-7 h-7 rounded-lg flex items-center justify-center ${i === 0 ? 'bg-white/10' : 'hover:bg-white/5'} transition-colors`}>
-                <Icon className="w-3.5 h-3.5 text-white/40" />
-              </div>
-            ))}
-            <div className="mt-auto w-7 h-7 rounded-full bg-green-500/20 flex items-center justify-center">
-              <span className="text-[9px] font-bold text-white">DR</span>
-            </div>
-          </div>
-          <div className="flex-1 p-5 bg-cream/40 min-h-[340px]">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <div className="font-display text-sm font-bold text-charcoal">Today&apos;s Schedule</div>
-                <div className="text-[10px] text-text-muted">Tuesday, 17 Jun · Dr. García&apos;s Clinic</div>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-[10px] font-medium text-white bg-green-500 px-2 py-0.5 rounded-full">Live</span>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-2.5 mb-4">
-              {[
-                { label: "Appointments", value: "18", sub: "2 auto-filled", icon: Calendar },
-                { label: "Show-up Rate", value: "96%", sub: "+12% vs last mo", icon: Users },
-                { label: "Avg Wait", value: "4 min", sub: "−8 min improved", icon: Clock },
-              ].map((stat, i) => (
-                <div key={i} className="bg-white rounded-xl p-2.5 border border-sand/50">
-                  <div className="flex items-center justify-between mb-1.5">
-                    <stat.icon className="w-3 h-3 text-warm-gray" />
-                    <span className="text-[9px] font-bold text-green-600 bg-green-50 px-1.5 py-0.5 rounded">{stat.sub}</span>
-                  </div>
-                  <div className="font-display text-lg font-bold text-charcoal leading-none">{stat.value}</div>
-                  <div className="text-[9px] text-text-muted mt-0.5">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-            <div className="bg-white rounded-xl border border-sand/50 p-3 mb-4">
-              <div className="flex items-center justify-between mb-2.5">
-                <span className="text-[10px] font-bold text-charcoal">Morning Block</span>
-                <span className="text-[9px] text-green-600 font-medium">100% booked</span>
-              </div>
-              <div className="space-y-1">
-                {[
-                  { time: "09:00", name: "Elena M.", type: "Follow-up", duration: "30m", status: "Checked In", color: "bg-green-400", barColor: "bg-green-100 border-green-200" },
-                  { time: "09:30", name: "Javier P.", type: "New Patient", duration: "45m", status: "AI Intake Done", color: "bg-accent-blue", barColor: "bg-blue-50 border-blue-200" },
-                  { time: "10:15", name: "Sofia L.", type: "Check-up", duration: "30m", status: "Reminder Sent", color: "bg-yellow-400", barColor: "bg-yellow-50 border-yellow-200" },
-                  { time: "10:45", name: "Marco D.", type: "Consultation", duration: "30m", status: "Confirmed", color: "bg-green-400", barColor: "bg-green-50 border-green-200" },
-                ].map((slot, i) => (
-                  <div key={i} className={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 border ${slot.barColor}`}>
-                    <span className="text-[9px] font-mono font-bold text-charcoal/60 w-8 shrink-0">{slot.time}</span>
-                    <div className={`w-1.5 h-1.5 rounded-full ${slot.color} shrink-0`} />
-                    <div className="flex-1 min-w-0">
-                      <span className="text-[10px] font-semibold text-charcoal">{slot.name}</span>
-                      <span className="text-[9px] text-text-muted ml-1">· {slot.type}</span>
-                    </div>
-                    <span className="text-[8px] font-medium text-text-muted bg-white px-1.5 py-0.5 rounded shrink-0">{slot.duration}</span>
-                    <span className="text-[8px] font-medium text-green-600 shrink-0">{slot.status}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="bg-white rounded-xl border border-sand/50 p-3">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-[10px] font-bold text-charcoal">Patient Satisfaction</span>
-                <span className="text-[9px] text-accent-blue font-medium">96% this month</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="flex-1 h-2 bg-cream rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-green-400 to-green-500 rounded-full" style={{ width: '96%' }} />
-                </div>
-                <span className="text-[9px] font-bold text-green-600">96%</span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="rounded-2xl border border-sand overflow-hidden">
+        <Image
+          src="/images/dental-os-cube.png"
+          alt="Dental OS"
+          width={732}
+          height={733}
+          className="w-full h-full object-cover"
+        />
       </div>
-      <motion.div initial={{ opacity: 0, y: 12, x: 12 }} animate={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 1, duration: 0.5, ease: [0.22, 1, 0.36, 1] }} className="absolute -bottom-5 -right-5 bg-white rounded-xl border border-sand shadow-xl shadow-charcoal/10 p-3 flex items-center gap-2.5 z-10">
-        <div className="w-9 h-9 rounded-xl bg-accent-blue/10 border border-accent-blue/20 flex items-center justify-center">
-          <Phone className="w-4.5 h-4.5 text-accent-blue" />
-        </div>
-        <div>
-          <div className="text-[11px] font-bold text-charcoal">Cancellation Recovered</div>
-          <div className="text-[9px] text-text-muted">10:15 slot auto-filled from waitlist</div>
-          <div className="text-[9px] text-green-600 font-medium mt-0.5">Revenue saved: €120</div>
-        </div>
-      </motion.div>
-      <motion.div initial={{ opacity: 0, y: -8, x: -8 }} animate={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 1.4, duration: 0.5, ease: [0.22, 1, 0.36, 1] }} className="absolute -top-3 -left-3 bg-charcoal rounded-lg shadow-lg px-3 py-2 flex items-center gap-2 z-10">
-        <div className="w-5 h-5 rounded-md bg-green-500 flex items-center justify-center">
-          <ShieldCheck className="w-3 h-3 text-white" />
-        </div>
-        <div>
-          <div className="text-[10px] font-bold text-white">HIPAA Compliant</div>
-          <div className="text-[8px] text-white/50">End-to-end encrypted</div>
-        </div>
-        <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-      </motion.div>
-      <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 1.8, duration: 0.4, ease: [0.22, 1, 0.36, 1] }} className="absolute -top-2 right-12 bg-white rounded-lg shadow-md border border-sand px-2.5 py-1.5 flex items-center gap-1.5 z-10">
-        <Activity className="w-3 h-3 text-green-500" />
-        <span className="text-[9px] font-bold text-charcoal">No-shows ↓ 50%</span>
-      </motion.div>
     </motion.div>
   );
 }

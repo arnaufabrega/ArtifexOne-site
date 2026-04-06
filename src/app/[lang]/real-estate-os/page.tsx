@@ -1,21 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
-  Building2,
-  TrendingUp,
-  Users,
-  MessageSquare,
-  BarChart3,
-  Bot,
   ArrowUpRight,
   ArrowDown,
   Clock,
   Target,
   CheckCircle2,
-  Calendar,
   FileText,
-  Bell,
   ChevronDown,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -33,137 +26,15 @@ function RealEstateIllustration() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className="relative w-full max-w-xl mx-auto"
     >
-      <div className="absolute -inset-12 bg-gradient-to-br from-accent-blue/[0.03] via-transparent to-sand/10 rounded-[3rem] pointer-events-none" />
-      <div className="relative bg-white rounded-2xl border border-sand/80 shadow-lg overflow-hidden">
-        <div className="flex items-center justify-between px-5 py-3 bg-light-gray border-b border-sand/60">
-          <div className="flex gap-1.5">
-            <div className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
-            <div className="w-[10px] h-[10px] rounded-full bg-[#FEBC2E]" />
-            <div className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
-          </div>
-          <div className="flex items-center gap-1.5 bg-white rounded-md border border-sand/60 px-2.5 py-1">
-            <div className="w-3 h-3 rounded-sm bg-accent-blue/15 flex items-center justify-center">
-              <Building2 className="w-2 h-2 text-accent-blue" />
-            </div>
-            <span className="text-[10px] text-text-muted font-medium">app.autonymo.com/dashboard</span>
-          </div>
-          <div className="w-14" />
-        </div>
-        <div className="flex">
-          <div className="w-[52px] bg-charcoal flex flex-col items-center py-4 gap-3.5 shrink-0">
-            <div className="w-7 h-7 rounded-lg bg-accent-blue flex items-center justify-center">
-              <Building2 className="w-3.5 h-3.5 text-white" />
-            </div>
-            {[BarChart3, Users, MessageSquare, Calendar, FileText].map((Icon, i) => (
-              <div key={i} className={`w-7 h-7 rounded-lg flex items-center justify-center ${i === 0 ? 'bg-white/10' : 'hover:bg-white/5'} transition-colors`}>
-                <Icon className="w-3.5 h-3.5 text-white/40" />
-              </div>
-            ))}
-            <div className="mt-auto w-7 h-7 rounded-full bg-accent-blue/20 flex items-center justify-center">
-              <span className="text-[9px] font-bold text-white">JR</span>
-            </div>
-          </div>
-          <div className="flex-1 p-5 bg-cream/40 min-h-[340px]">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <div className="font-display text-sm font-bold text-charcoal">Lead Pipeline</div>
-                <div className="text-[10px] text-text-muted">Tuesday, 17 Jun · Barcelona Office</div>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="flex -space-x-1.5">
-                  {['bg-accent-blue', 'bg-green-500', 'bg-yellow-500'].map((bg, i) => (
-                    <div key={i} className={`w-5 h-5 rounded-full ${bg} border-2 border-white flex items-center justify-center`}>
-                      <span className="text-[7px] font-bold text-white">{['A', 'M', 'C'][i]}</span>
-                    </div>
-                  ))}
-                </div>
-                <span className="text-[10px] font-medium text-white bg-green-500 px-2 py-0.5 rounded-full">Live</span>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-2.5 mb-4">
-              {[
-                { label: "Active Leads", value: "247", trend: "+18%", icon: Users },
-                { label: "Avg Response", value: "< 2m", trend: "−73%", icon: Clock },
-                { label: "Conversion", value: "34%", trend: "+12%", icon: TrendingUp },
-              ].map((stat, i) => (
-                <div key={i} className="bg-white rounded-xl p-2.5 border border-sand/50">
-                  <div className="flex items-center justify-between mb-1.5">
-                    <stat.icon className="w-3 h-3 text-warm-gray" />
-                    <span className="text-[9px] font-bold text-green-600 bg-green-50 px-1.5 py-0.5 rounded">{stat.trend}</span>
-                  </div>
-                  <div className="font-display text-lg font-bold text-charcoal leading-none">{stat.value}</div>
-                  <div className="text-[9px] text-text-muted mt-0.5">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-            <div className="bg-white rounded-xl border border-sand/50 p-3 mb-4">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-[10px] font-bold text-charcoal">Leads This Week</span>
-                <span className="text-[9px] text-accent-blue font-medium">+24% vs last week</span>
-              </div>
-              <div className="flex items-end gap-1 h-10">
-                {[35, 52, 41, 68, 55, 72, 48].map((h, i) => (
-                  <div key={i} className="flex-1 flex flex-col items-center gap-0.5">
-                    <div className={`w-full rounded-sm ${i === 5 ? 'bg-accent-blue' : 'bg-accent-blue/20'}`} style={{ height: `${h * 0.55}%` }} />
-                    <span className="text-[7px] text-warm-gray">{'MTWTFSS'[i]}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div>
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-[10px] font-bold text-charcoal uppercase tracking-wider">Live Feed</span>
-                <span className="text-[9px] text-text-muted">12 new today</span>
-              </div>
-              {[
-                { name: "Maria G.", avatar: "MG", property: "3BR Eixample", status: "Viewing Booked", time: "2m", dot: "bg-green-400", avatarBg: "bg-purple-100 text-purple-600" },
-                { name: "Carlos R.", avatar: "CR", property: "2BR Gràcia", status: "AI Qualifying", time: "5m", dot: "bg-accent-blue", avatarBg: "bg-blue-100 text-blue-600" },
-                { name: "Anna K.", avatar: "AK", property: "Penthouse Born", status: "Follow-up Sent", time: "12m", dot: "bg-yellow-400", avatarBg: "bg-amber-100 text-amber-600" },
-              ].map((lead, i) => (
-                <div key={i} className="flex items-center gap-2.5 bg-white rounded-lg px-3 py-2 border border-sand/30 mb-1.5">
-                  <div className={`w-6 h-6 rounded-full flex items-center justify-center text-[8px] font-bold shrink-0 ${lead.avatarBg}`}>{lead.avatar}</div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-[11px] font-semibold text-charcoal">{lead.name}</span>
-                      <span className="text-[9px] text-text-muted truncate">· {lead.property}</span>
-                    </div>
-                    <div className="flex items-center gap-1 mt-0.5">
-                      <div className={`w-1.5 h-1.5 rounded-full ${lead.dot}`} />
-                      <span className="text-[9px] text-text-muted">{lead.status}</span>
-                    </div>
-                  </div>
-                  <span className="text-[9px] text-warm-gray shrink-0">{lead.time}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+      <div className="rounded-2xl border border-sand overflow-hidden">
+        <Image
+          src="/images/real-estate-os-cube.png"
+          alt="Real Estate OS"
+          width={732}
+          height={733}
+          className="w-full h-full object-cover"
+        />
       </div>
-      <motion.div initial={{ opacity: 0, y: 12, x: 12 }} animate={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 1, duration: 0.5, ease: [0.22, 1, 0.36, 1] }} className="absolute -bottom-5 -right-5 bg-white rounded-xl border border-sand shadow-xl shadow-charcoal/10 p-3 flex items-center gap-2.5 z-10">
-        <div className="w-9 h-9 rounded-xl bg-green-50 border border-green-100 flex items-center justify-center">
-          <CheckCircle2 className="w-4.5 h-4.5 text-green-600" />
-        </div>
-        <div>
-          <div className="text-[11px] font-bold text-charcoal">Deal Closed!</div>
-          <div className="text-[9px] text-text-muted">Calle Mayor 12 · €285,000</div>
-          <div className="text-[9px] text-green-600 font-medium mt-0.5">Commission: €8,550</div>
-        </div>
-      </motion.div>
-      <motion.div initial={{ opacity: 0, y: -8, x: -8 }} animate={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 1.4, duration: 0.5, ease: [0.22, 1, 0.36, 1] }} className="absolute -top-3 -left-3 bg-charcoal rounded-lg shadow-lg px-3 py-2 flex items-center gap-2 z-10">
-        <div className="w-5 h-5 rounded-md bg-accent-blue flex items-center justify-center">
-          <Bot className="w-3 h-3 text-white" />
-        </div>
-        <div>
-          <div className="text-[10px] font-bold text-white">AI Agent Active</div>
-          <div className="text-[8px] text-white/50">Handling 3 conversations</div>
-        </div>
-        <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-      </motion.div>
-      <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 1.8, duration: 0.4, ease: [0.22, 1, 0.36, 1] }} className="absolute -top-2 right-12 bg-white rounded-lg shadow-md border border-sand px-2.5 py-1.5 flex items-center gap-1.5 z-10">
-        <Bell className="w-3 h-3 text-accent-blue" />
-        <span className="text-[9px] font-bold text-charcoal">4 new leads</span>
-        <div className="w-4 h-4 rounded-full bg-accent-blue text-[8px] text-white font-bold flex items-center justify-center">4</div>
-      </motion.div>
     </motion.div>
   );
 }

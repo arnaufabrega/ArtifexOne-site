@@ -1,19 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
-  Settings2,
-  Workflow,
   Cpu,
-  Plug,
   Code2,
-  ArrowRight,
   ArrowUpRight,
   ArrowDown,
   CheckCircle2,
   Clock,
-  Zap,
-  LayoutDashboard,
   ChevronDown,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -31,86 +26,15 @@ function WorkflowIllustration() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className="relative w-full max-w-lg mx-auto"
     >
-      <div className="bg-white rounded-2xl border border-sand shadow-xl shadow-charcoal/5 p-6 relative overflow-hidden">
-        <div className="flex gap-1.5 mb-5">
-          <div className="w-2.5 h-2.5 rounded-full bg-red-300" />
-          <div className="w-2.5 h-2.5 rounded-full bg-yellow-300" />
-          <div className="w-2.5 h-2.5 rounded-full bg-green-300" />
-        </div>
-        <div className="flex items-center justify-between mb-5">
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-accent-blue/10 flex items-center justify-center">
-              <Settings2 className="w-4 h-4 text-accent-blue" />
-            </div>
-            <span className="font-display text-sm font-bold text-charcoal">Workflow Engine</span>
-          </div>
-          <span className="text-[10px] font-medium text-white bg-green-500 px-2 py-0.5 rounded-full">Active</span>
-        </div>
-        <div className="bg-cream rounded-xl p-4 mb-4">
-          <div className="flex items-center justify-between mb-3">
-            <span className="text-[10px] font-bold text-charcoal">Active Workflows</span>
-            <span className="text-[10px] text-text-muted">8 running</span>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <div className="flex items-center gap-3 w-full">
-              <div className="flex-1 bg-white rounded-lg border border-sand/60 p-2 flex items-center gap-2">
-                <Zap className="w-3 h-3 text-accent-blue/50" />
-                <div className="h-1.5 w-12 bg-charcoal/10 rounded-full" />
-              </div>
-              <ArrowRight className="w-3 h-3 text-sand flex-shrink-0" />
-              <div className="flex-1 bg-white rounded-lg border border-sand/60 p-2 flex items-center gap-2">
-                <Cpu className="w-3 h-3 text-accent-blue/50" />
-                <div className="h-1.5 w-10 bg-charcoal/10 rounded-full" />
-              </div>
-            </div>
-            <div className="w-px h-3 bg-sand" />
-            <div className="flex items-center gap-3 w-full">
-              <div className="flex-1 bg-accent-blue/5 rounded-lg border border-accent-blue/15 p-2 flex items-center gap-2">
-                <Workflow className="w-3 h-3 text-accent-blue/50" />
-                <div className="h-1.5 w-14 bg-accent-blue/10 rounded-full" />
-              </div>
-              <ArrowRight className="w-3 h-3 text-sand flex-shrink-0" />
-              <div className="flex-1 bg-white rounded-lg border border-sand/60 p-2 flex items-center gap-2">
-                <Plug className="w-3 h-3 text-accent-blue/50" />
-                <div className="h-1.5 w-8 bg-charcoal/10 rounded-full" />
-              </div>
-            </div>
-            <div className="w-px h-3 bg-sand" />
-            <div className="flex items-center gap-3 w-full">
-              <div className="flex-1 bg-white rounded-lg border border-sand/60 p-2 flex items-center gap-2">
-                <LayoutDashboard className="w-3 h-3 text-accent-blue/50" />
-                <div className="h-1.5 w-11 bg-charcoal/10 rounded-full" />
-              </div>
-              <ArrowRight className="w-3 h-3 text-sand flex-shrink-0" />
-              <div className="flex-1 bg-green-50 rounded-lg border border-green-200/60 p-2 flex items-center gap-2">
-                <CheckCircle2 className="w-3 h-3 text-green-500/50" />
-                <div className="h-1.5 w-9 bg-green-200/50 rounded-full" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-3 gap-3">
-          {[
-            { label: "Workflows", value: "8", color: "text-charcoal" },
-            { label: "Integrations", value: "14", color: "text-charcoal" },
-            { label: "Uptime", value: "99.9%", color: "text-green-600" },
-          ].map((stat, i) => (
-            <div key={i} className="bg-cream rounded-xl p-2.5 text-center">
-              <div className={`font-display text-base font-bold ${stat.color}`}>{stat.value}</div>
-              <div className="text-[9px] text-text-muted mt-0.5">{stat.label}</div>
-            </div>
-          ))}
-        </div>
+      <div className="rounded-2xl border border-sand overflow-hidden">
+        <Image
+          src="/images/custom-solutions-cube.png"
+          alt="Custom Solutions"
+          width={732}
+          height={733}
+          className="w-full h-full object-cover"
+        />
       </div>
-      <motion.div initial={{ opacity: 0, y: 12, x: 12 }} animate={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 1.2, duration: 0.5, ease: [0.22, 1, 0.36, 1] }} className="absolute -bottom-4 -right-4 bg-white rounded-xl border border-sand shadow-lg p-3 flex items-center gap-2">
-        <div className="w-8 h-8 rounded-full bg-accent-blue/10 flex items-center justify-center">
-          <Plug className="w-4 h-4 text-accent-blue" />
-        </div>
-        <div>
-          <div className="text-[11px] font-bold text-charcoal">New integration</div>
-          <div className="text-[10px] text-text-muted">New system connected</div>
-        </div>
-      </motion.div>
     </motion.div>
   );
 }
