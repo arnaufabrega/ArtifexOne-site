@@ -26,13 +26,13 @@ function RealEstateIllustration() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className="relative w-full max-w-xl mx-auto"
     >
-      <div className="rounded-2xl border border-sand overflow-hidden">
+      <div className="rounded-2xl border border-sand bg-white p-4 overflow-hidden flex items-center justify-center">
         <Image
           src="/images/real-estate-os-cube.png"
           alt="Real Estate OS"
           width={732}
           height={733}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-xl"
         />
       </div>
     </motion.div>
@@ -295,21 +295,6 @@ export default function RealEstateOS() {
                 <p className="text-text-muted leading-relaxed text-sm">{item.desc}</p>
               </ScrollReveal>
             ))}
-          </div>
-          <div className="p-6 rounded-xl bg-white border border-sand">
-            <h4 className="font-display text-sm font-bold text-charcoal/50 uppercase tracking-wider mb-4">
-              Portal Integrations
-            </h4>
-            <div className="flex flex-wrap gap-3 mb-3">
-              {["Idealista", "Fotocasa", "Habitaclia", "Pisos.com"].map((portal, i) => (
-                <span key={i} className="px-4 py-2 rounded-lg bg-cream border border-sand text-sm font-medium text-charcoal">
-                  {portal}
-                </span>
-              ))}
-            </div>
-            <p className="text-text-muted text-sm leading-relaxed">
-              We integrate with every major portal in your market.
-            </p>
           </div>
         </div>
       </section>
