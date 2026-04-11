@@ -84,7 +84,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div ref={navRef} className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full max-w-7xl px-3 sm:px-0 will-change-transform">
+    <div ref={navRef} className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full max-w-site px-3 sm:px-0 will-change-transform">
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}

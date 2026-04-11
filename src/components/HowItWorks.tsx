@@ -13,7 +13,7 @@ export const HowItWorks = () => {
   ];
   return (
     <section id="how-it-works" className="py-14 px-6 bg-cream border-y border-sand relative overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-site mx-auto">
         <div className="max-w-3xl mb-10">
           <h2 className="font-heading text-caption text-blue-primary font-bold tracking-[0.08em] uppercase mb-4">
             {t("label")}
