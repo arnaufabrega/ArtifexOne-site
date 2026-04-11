@@ -37,7 +37,7 @@ export const Hero = () => {
   return (
     <div className="bg-cream rounded-b-3xl border-b border-sand/30 relative overflow-hidden">
       <section className="relative pt-32 pb-40 px-6 sm:pt-44 sm:pb-48 lg:pt-52 lg:pb-60">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-site mx-auto">
           <div className="text-center">
             <div className="relative inline-block">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-cream/80 rounded-full -z-10" />
@@ -96,7 +96,7 @@ export const Hero = () => {
 
       {/* Featured Platform Cards */}
       <section id="solutions" className="pb-16 px-6 bg-transparent relative z-10 -mt-20 sm:-mt-24 lg:-mt-32 will-change-transform">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-site mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             {cards.map((card, index) => (
               <div key={index}>

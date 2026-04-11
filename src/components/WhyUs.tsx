@@ -15,7 +15,7 @@ export const WhyUs = () => {
 
   return (
     <section className="py-20 sm:py-28 px-6 bg-cream border-t border-sand/50">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-site mx-auto">
         <div className="mb-12">
           <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
             Why Us
