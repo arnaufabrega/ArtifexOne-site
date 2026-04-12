@@ -52,7 +52,8 @@ export const Hero = () => {
                     href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
                     className="inline-flex w-full sm:w-auto items-center justify-center font-medium tracking-tight text-white text-base sm:text-lg bg-charcoal rounded-xl px-8 py-3.5 sm:py-3 cursor-pointer"
                   >
-                    {t("hero.cta")}
+                    <span className="sm:hidden">{t("hero.ctaShort")}</span>
+                    <span className="hidden sm:inline">{t("hero.cta")}</span>
                   </Link>
                 </motion.div>
 

@@ -26,9 +26,10 @@ export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }:
           </p>
           <Link
             href={calLink ?? "https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"}
-            className="inline-flex items-center justify-center gap-2 font-semibold tracking-tight text-charcoal text-lg bg-white rounded-xl px-10 py-4 hover:opacity-90 transition-colors active:scale-95"
+            className="inline-flex items-center justify-center gap-2 font-semibold tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-10 py-4 hover:opacity-90 transition-colors active:scale-95"
           >
-            {t("button")}
+            <span className="sm:hidden">{t("buttonShort")}</span>
+            <span className="hidden sm:inline">{t("button")}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
           <div className="flex flex-wrap items-center justify-center gap-6 mt-auto pt-8">

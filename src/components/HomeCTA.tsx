@@ -20,9 +20,10 @@ export const HomeCTA = () => {
           </p>
           <Link
             href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
-            className="inline-flex items-center justify-center font-medium tracking-tight text-charcoal text-lg bg-white rounded-xl px-8 py-4 hover:bg-white/90 transition-colors active:scale-95"
+            className="inline-flex items-center justify-center font-medium tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-8 py-4 hover:bg-white/90 transition-colors active:scale-95"
           >
-            {t("button")}
+            <span className="sm:hidden">{t("buttonShort")}</span>
+            <span className="hidden sm:inline">{t("button")}</span>
             <ArrowUpRight className="ml-2 w-5 h-5 text-charcoal" />
           </Link>
         </div>
