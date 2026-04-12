@@ -191,7 +191,7 @@ export default function CustomSolutions() {
               ].map((step, i) => (
                 <div key={i} className="flex flex-col items-center">
                   {i > 0 && <div className="w-px h-6 bg-sand mb-4" />}
-                  <ScrollReveal delay={i * 0.1} className="flex items-center gap-4 px-8 py-4 rounded-xl bg-cream border border-sand">
+                  <ScrollReveal delay={i * 0.1} className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 px-5 sm:px-8 py-4 rounded-xl bg-cream border border-sand w-full sm:w-auto">
                     <span className="font-display text-sm font-bold text-accent-blue uppercase">{step.label}</span>
                     <span className="text-text-muted text-sm">{step.desc}</span>
                   </ScrollReveal>

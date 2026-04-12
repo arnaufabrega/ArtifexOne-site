@@ -8,14 +8,14 @@ export const HomeCTA = () => {
   const t = useTranslations("cta");
 
   return (
-    <section className="py-14 px-3 sm:px-px bg-cream">
-      <div className="max-w-[80rem] mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden shadow-lg">
+    <section className="py-14 px-3 sm:px-6 bg-cream">
+      <div className="max-w-[80rem] mx-auto p-6 sm:p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden shadow-lg">
         <div className="flex flex-col items-center">
-          <h2 className="font-heading text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-6xl font-bold mb-6 tracking-tight">
             {t("title")} <br />
             {t("titleLine2")}
           </h2>
-          <p className="text-white/70 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/70 text-base sm:text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
             {t("subtitle")}
           </p>
           <Link
