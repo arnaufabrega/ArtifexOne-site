@@ -363,7 +363,7 @@ export const Navbar = () => {
                       rel="noopener noreferrer"
                       className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
                     >
-                      <img src="/icons/linkedin.svg" alt="LinkedIn" width={14} height={14} className="invert" />
+                      <Image src="/icons/linkedin.svg" alt="LinkedIn" width={14} height={14} className="invert" />
                     </a>
                   </div>
                 </div>
