@@ -51,7 +51,7 @@
     "title": "Construïm i operem sistemes operatius natius d'IA que fan créixer de forma composta les indústries tradicionals.",
     "titleHighlight": "",
     "subtitle": "El teu equip d'IA extern. Entrem dins el teu negoci, construïm el que genera impacte real, el fem funcionar i ens assegurem que et mantinguis al capdavant mentre la tecnologia evoluciona.",
-    "cta": "Reservar Avaluació Gratuïta",
+    "cta": "Reservar Trucada",
     "ctaShort": "Reservar Trucada",
     "ctaSecondary": "Veure Les Nostres Solucions",
     "seeHowItWorks": "Veure Com Funciona",
@@ -266,7 +266,7 @@
     "title": "Preparat per veure què pot fer la IA",
     "titleLine2": "pel teu negoci?",
     "subtitle": "Reserva una trucada. Et mostrarem on la IA pot tenir el major impacte en les teves operacions.",
-    "button": "Reservar Avaluació Gratuïta",
+    "button": "Reservar Trucada",
     "buttonShort": "Reservar Trucada"
   },
   "footer": {
@@ -281,6 +281,7 @@
     "terms": "Termes de Servei",
     "cookies": "Cookies",
     "copyright": "© {year} Autonymo. Tots els drets reservats.",
+    "tagline": "Autonymo és l'empresa matriu de Keishal i Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -363,7 +364,7 @@
   "finalCta": {
     "defaultHeading": "Parlem de {verticalPhrase}.",
     "defaultSubtitle": "Reserva una trucada. Identificarem on la IA pot tenir el major impacte en el teu negoci.",
-    "button": "Reservar Avaluació Gratuïta",
+    "button": "Reservar Trucada",
     "buttonShort": "Reservar Trucada",
     "checks": {
       "noCommitment": "Sense compromís",
@@ -405,7 +406,7 @@
       "heading1": "Els teus dentistes tracten.",
       "heading2": "La nostra IA omple les cadires.",
       "description": "Reactivem pacients inactius per WhatsApp, automatitzem les reserves i gestionem la comunicació amb els pacients. Desplegat sobre el programari de clínica que ja tens, gestionat pel nostre equip.",
-      "ctaPrimary": "Reservar Avaluació Gratuïta",
+      "ctaPrimary": "Reservar Trucada",
       "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "Veure com funciona",
       "imageAlt": "Dental Clinic OS"
@@ -565,7 +566,7 @@
       "heading1": "Els teus agents venen.",
       "heading2": "La nostra IA fa funcionar l'agència.",
       "description": "Un sistema operatiu complet impulsat per IA per a la teva agència immobiliària. Construït al voltant dels teus processos, desplegat sobre les teves eines, afinat per a tu. Et guiem a l'onboarding i ens quedem per optimitzar-lo cada mes.",
-      "ctaPrimary": "Reservar Avaluació Gratuïta",
+      "ctaPrimary": "Reservar Trucada",
       "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "Veure com funciona",
       "imageAlt": "Real Estate OS"
@@ -727,7 +728,7 @@
       "label": "Solucions Personalitzades",
       "heading": "Operacions d'IA fetes per al teu negoci. No a partir d'una plantilla.",
       "description": "Per a empreses amb processos que no encaixen en un producte estàndard. Auditem les teves operacions, construïm sistemes d'IA al voltant de com treballes realment i ens quedem per gestionar-los i millorar-los.",
-      "ctaPrimary": "Reservar Avaluació Gratuïta",
+      "ctaPrimary": "Reservar Trucada",
       "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "Veure com funciona",
       "imageAlt": "Solucions Personalitzades"
@@ -888,7 +889,7 @@
   },
   "bookCall": {
     "hero": {
-      "label": "Reservar Avaluació Gratuïta",
+      "label": "Reservar Trucada",
       "heading": "Trobem on la IA pot tenir el major impacte.",
       "description": "Una trucada gratuïta de 15 minuts per entendre la teva situació, identificar oportunitats i veure si podem ajudar. Sense compromís, sense argumentari de venda.",
       "badges": {
@@ -983,7 +984,7 @@
       "heading1": "Si tu estàs preparat per començar,",
       "heading2": "nosaltres també.",
       "description": "Reserva una trucada. Et direm exactament on la IA pot tenir el major impacte en el teu negoci, i què caldria per aconseguir-ho.",
-      "button": "Reservar Avaluació Gratuïta",
+      "button": "Reservar Trucada",
       "buttonShort": "Reservar Trucada",
       "noCommitment": "Sense compromís"
     }

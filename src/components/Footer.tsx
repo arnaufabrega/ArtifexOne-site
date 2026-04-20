@@ -19,7 +19,7 @@ const Footer = () => {
     [t("company")]: [
       { name: t("aboutUs"), href: "/about" as const },
       { name: t("blog"), href: "/blog" as const },
-      { name: t("bookCall"), href: "https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions" as const },
+      { name: t("bookCall"), href: "https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership" as const },
     ],
     [t("social")]: [
       { name: "LinkedIn", href: "https://www.linkedin.com/company/autonymo/" as const },
@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-12 mb-10">
             {/* Brand Column */}
             <div className="col-span-2">
-              <Link href="/" className="flex items-center gap-1.5 mb-6 group">
+              <Link href="/" className="flex items-center gap-1.5 mb-4 group">
                 <Image
                   src="/logo.png"
                   alt="Autonymo"
@@ -52,6 +52,9 @@ const Footer = () => {
                   Autonymo
                 </span>
               </Link>
+              <p className="text-text-muted text-sm leading-relaxed max-w-xs">
+                {t("tagline")}
+              </p>
             </div>
 
             {/* Links Columns */}

@@ -194,7 +194,7 @@ export const Navbar = () => {
 
             {/* Book a Call CTA */}
             <Link
-              href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
+              href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
               className="hidden sm:flex items-center gap-1.5 px-5 py-2 text-sm font-semibold text-white bg-charcoal rounded-lg hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >
               <ArrowUpRight className="w-4 h-4" />
@@ -477,7 +477,7 @@ export const Navbar = () => {
             <div className="border-t border-sand/50 my-2" />
 
             <Link
-              href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
+              href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
               onClick={closeAll}
               className="flex items-center justify-center gap-1.5 w-full px-5 py-3 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >

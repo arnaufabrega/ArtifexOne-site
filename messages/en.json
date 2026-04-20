@@ -51,7 +51,7 @@
     "title": "We build and operate AI-native operating systems that compound traditional industries.",
     "titleHighlight": "",
     "subtitle": "Your external AI team. We go inside your business, build what generates real impact, run it and make sure you stay ahead as technology evolves.",
-    "cta": "Book a Free Call",
+    "cta": "Book a Call",
     "ctaShort": "Book a Call",
     "ctaSecondary": "See Our Solutions",
     "seeHowItWorks": "See How It Works",
@@ -266,7 +266,7 @@
     "title": "Ready to see what AI",
     "titleLine2": "can do for your business?",
     "subtitle": "Book a call. We'll show you where AI can make the biggest impact on your operations.",
-    "button": "Book a Free Call",
+    "button": "Book a Call",
     "buttonShort": "Book a Call"
   },
   "footer": {
@@ -281,6 +281,7 @@
     "terms": "Terms of Service",
     "cookies": "Cookies",
     "copyright": "© {year} Autonymo. All rights reserved.",
+    "tagline": "Autonymo is the parent company of Keishal and Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -363,7 +364,7 @@
   "finalCta": {
     "defaultHeading": "Let’s look at {verticalPhrase}.",
     "defaultSubtitle": "Book a call. We’ll identify where AI can make the biggest impact on your business.",
-    "button": "Book a Free Call",
+    "button": "Book a Call",
     "buttonShort": "Book a Call",
     "checks": {
       "noCommitment": "No commitment required",
@@ -405,7 +406,7 @@
       "heading1": "Your dentists treat.",
       "heading2": "Our AI fills the chairs.",
       "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
-      "ctaPrimary": "Book a Free Call",
+      "ctaPrimary": "Book a Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Dental Clinic OS"
@@ -565,7 +566,7 @@
       "heading1": "Your agents sell.",
       "heading2": "Our AI runs the agency.",
       "description": "A complete AI-powered operating system for your real estate agency. Built around your processes, deployed on your tools, fine-tuned for you. We guide you through onboarding and stay on to optimize it every month.",
-      "ctaPrimary": "Book a Free Call",
+      "ctaPrimary": "Book a Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Real Estate OS"
@@ -727,7 +728,7 @@
       "label": "Custom Solutions",
       "heading": "AI operations built for your business. Not from a template.",
       "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
-      "ctaPrimary": "Book a Free Call",
+      "ctaPrimary": "Book a Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Custom Solutions"
@@ -888,7 +889,7 @@
   },
   "bookCall": {
     "hero": {
-      "label": "Book a Free Call",
+      "label": "Book a Call",
       "heading": "Let’s find where AI can make the biggest impact.",
       "description": "A free 15-minute call to understand your situation, identify opportunities, and see if we can help. No commitment, no pitch.",
       "badges": {
@@ -983,7 +984,7 @@
       "heading1": "If you’re ready to start,",
       "heading2": "so are we.",
       "description": "Book a call. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
-      "button": "Book a Free Call",
+      "button": "Book a Call",
       "buttonShort": "Book a Call",
       "noCommitment": "No commitment required"
     }

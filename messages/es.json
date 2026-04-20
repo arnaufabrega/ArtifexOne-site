@@ -51,7 +51,7 @@
     "title": "Construimos y operamos sistemas operativos nativos de IA que multiplican las industrias tradicionales.",
     "titleHighlight": "",
     "subtitle": "Tu equipo externo de IA. Entramos dentro de tu negocio, construimos lo que genera impacto real, lo operamos y nos aseguramos de que sigas por delante a medida que la tecnología evoluciona.",
-    "cta": "Reservar Evaluación Gratuita",
+    "cta": "Reservar Llamada",
     "ctaShort": "Reservar Llamada",
     "ctaSecondary": "Ver Nuestras Soluciones",
     "seeHowItWorks": "Ver Cómo Funciona",
@@ -266,7 +266,7 @@
     "title": "¿Listo para ver qué puede hacer la IA",
     "titleLine2": "por tu negocio?",
     "subtitle": "Reserva una llamada. Te mostraremos dónde la IA puede tener el mayor impacto en tus operaciones.",
-    "button": "Reservar Evaluación Gratuita",
+    "button": "Reservar Llamada",
     "buttonShort": "Reservar Llamada"
   },
   "footer": {
@@ -281,6 +281,7 @@
     "terms": "Términos de Servicio",
     "cookies": "Cookies",
     "copyright": "© {year} Autonymo. Todos los derechos reservados.",
+    "tagline": "Autonymo es la empresa matriz de Keishal y Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -363,7 +364,7 @@
   "finalCta": {
     "defaultHeading": "Hablemos de {verticalPhrase}.",
     "defaultSubtitle": "Reserva una llamada. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio.",
-    "button": "Reservar Evaluación Gratuita",
+    "button": "Reservar Llamada",
     "buttonShort": "Reservar Llamada",
     "checks": {
       "noCommitment": "Sin compromiso",
@@ -405,7 +406,7 @@
       "heading1": "Tus dentistas tratan.",
       "heading2": "Nuestra IA llena los sillones.",
       "description": "Reactivamos pacientes inactivos vía WhatsApp, automatizamos las reservas y gestionamos la comunicación con los pacientes. Desplegado sobre tu software de clínica actual y gestionado por nuestro equipo.",
-      "ctaPrimary": "Reservar Evaluación Gratuita",
+      "ctaPrimary": "Reservar Llamada",
       "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Dental Clinic OS"
@@ -565,7 +566,7 @@
       "heading1": "Tus agentes venden.",
       "heading2": "Nuestra IA gestiona la agencia.",
       "description": "Un sistema operativo completo impulsado por IA para tu agencia inmobiliaria. Construido en torno a tus procesos, desplegado en tus herramientas, afinado para ti. Te guiamos durante el onboarding y nos quedamos para optimizarlo cada mes.",
-      "ctaPrimary": "Reservar Evaluación Gratuita",
+      "ctaPrimary": "Reservar Llamada",
       "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Real Estate OS"
@@ -727,7 +728,7 @@
       "label": "Soluciones Personalizadas",
       "heading": "Operaciones de IA construidas para tu negocio. No a partir de una plantilla.",
       "description": "Para empresas con procesos que no encajan en un producto estándar. Auditamos tus operaciones, construimos sistemas de IA en torno a cómo trabajas realmente y nos quedamos para gestionarlos y mejorarlos.",
-      "ctaPrimary": "Reservar Evaluación Gratuita",
+      "ctaPrimary": "Reservar Llamada",
       "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Custom Solutions"
@@ -888,7 +889,7 @@
   },
   "bookCall": {
     "hero": {
-      "label": "Reservar Evaluación Gratuita",
+      "label": "Reservar Llamada",
       "heading": "Encontremos dónde la IA puede tener el mayor impacto.",
       "description": "Una llamada gratuita de 15 minutos para entender tu situación, identificar oportunidades y ver si podemos ayudar. Sin compromiso, sin venta.",
       "badges": {
@@ -983,7 +984,7 @@
       "heading1": "Si estás listo para empezar,",
       "heading2": "nosotros también.",
       "description": "Reserva una llamada. Te diremos exactamente dónde la IA puede tener el mayor impacto en tu negocio y qué haría falta para llegar hasta ahí.",
-      "button": "Reservar Evaluación Gratuita",
+      "button": "Reservar Llamada",
       "buttonShort": "Reservar Llamada",
       "noCommitment": "Sin compromiso"
     }
