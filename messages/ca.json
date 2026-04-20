@@ -311,7 +311,13 @@
   },
   "whyUs": {
     "label": "Per Què Nosaltres",
-    "heading": "No venem programari. Fem la feina.",
+    "heading": {
+      "prefix": "No",
+      "strike": "venem programari",
+      "middle": ". ",
+      "emphasis": "Fem la feina",
+      "suffix": "."
+    },
     "vendorTitle": "Què Fan la Majoria de Proveïdors",
     "vendorItems": {
       "item1": "Et venen una plataforma i desapareixen",

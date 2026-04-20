@@ -311,7 +311,13 @@
   },
   "whyUs": {
     "label": "Why Us",
-    "heading": "We don’t sell software. We do the work.",
+    "heading": {
+      "prefix": "We don’t",
+      "strike": "sell software",
+      "middle": ". ",
+      "emphasis": "We do the work",
+      "suffix": "."
+    },
     "vendorTitle": "What Most Vendors Do",
     "vendorItems": {
       "item1": "Sell you a platform and disappear",

@@ -311,7 +311,13 @@
   },
   "whyUs": {
     "label": "Por Qué Nosotros",
-    "heading": "No vendemos software. Hacemos el trabajo.",
+    "heading": {
+      "prefix": "No",
+      "strike": "vendemos software",
+      "middle": ". ",
+      "emphasis": "Hacemos el trabajo",
+      "suffix": "."
+    },
     "vendorTitle": "Lo Que Hacen la Mayoría de Proveedores",
     "vendorItems": {
       "item1": "Te venden una plataforma y desaparecen",
