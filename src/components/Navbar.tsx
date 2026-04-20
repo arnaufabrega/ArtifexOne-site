@@ -362,11 +362,20 @@ export const Navbar = () => {
                 onSubmit={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
+                  const input = e.currentTarget.elements.namedItem("email") as HTMLInputElement | null;
+                  const email = input?.value.trim() ?? "";
+                  const subject = encodeURIComponent("Newsletter subscription");
+                  const body = encodeURIComponent(
+                    email ? `Please subscribe me to the Autonymo newsletter: ${email}` : "Please subscribe me to the Autonymo newsletter.",
+                  );
+                  window.location.href = `mailto:news@autonymo.com?subject=${subject}&body=${body}`;
                 }}
                 className="flex flex-col gap-2 mt-auto"
               >
                 <input
                   type="email"
+                  name="email"
+                  required
                   placeholder={t("emailPlaceholder")}
                   className="w-full px-3 py-2.5 text-sm rounded-lg border border-white/10 bg-white/10 text-white placeholder:text-white/30 focus:outline-none focus:border-white/30 transition-colors"
                 />
