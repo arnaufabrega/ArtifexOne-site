@@ -346,13 +346,13 @@
     "subtitle": "Tres pasos. Un equipo. Progreso compuesto continuo.",
     "steps": {
       "step1": {
-        "phase": "Auditoría \u00b7 Semana 1\u20132",
+        "phase": "Auditoría \u00b7 Semana 1-2",
         "title": "Encontrar qué construir.",
         "description": "Dos semanas. Tres oportunidades de IA con mayor ROI, puntuadas, priorizadas y presupuestadas.",
         "tags": ["Sin diagnósticos de 6 meses", "Sin presentaciones de 80 diapositivas"]
       },
       "step2": {
-        "phase": "Construcción \u00b7 Semana 3\u20134",
+        "phase": "Construcción \u00b7 Semana 3-4",
         "title": "Desplegar lo que importa.",
         "description": "Construido y desplegado sobre tus herramientas existentes. En producción en 30 a 60 días.",
         "tags": ["Sin reemplazos forzados", "Sin pilotos muertos"]
@@ -698,7 +698,7 @@
         },
         "item3": {
           "question": "¿Y si mi agencia es pequeña?",
-          "answer": "El OS está diseñado para agencias con al menos 3–5 personas. Dicho esto, podemos adaptarnos a equipos más pequeños si es necesario."
+          "answer": "El OS está diseñado para agencias con al menos 3-5 personas. Dicho esto, podemos adaptarnos a equipos más pequeños si es necesario."
         },
         "item4": {
           "question": "¿En qué se diferencia esto de comprar un CRM?",
@@ -710,7 +710,7 @@
         },
         "item6": {
           "question": "¿Cómo de rápido veremos resultados?",
-          "answer": "Primer módulo en producción en 2–4 semanas. La mayoría de agencias ven impacto medible dentro del primer mes."
+          "answer": "Primer módulo en producción en 2-4 semanas. La mayoría de agencias ven impacto medible dentro del primer mes."
         },
         "item7": {
           "question": "¿Qué pasa si dejamos de trabajar con vosotros?",
@@ -834,7 +834,7 @@
       "heading": "Benchmarks de proyectos personalizados.",
       "items": {
         "item1": {
-          "value": "8–12",
+          "value": "8-12",
           "label": "Oportunidades de automatización identificadas",
           "description": "Una auditoría media identifica de 8 a 12 oportunidades de automatización"
         },

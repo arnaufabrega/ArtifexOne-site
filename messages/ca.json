@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Autonymo | Sistemes Operatius d'IA per a la Teva Indústria",
-    "description": "Dissenyem, construïm i despleguem sistemes operatius d'IA complets per a Immobiliària, Salut i solucions empresarials personalitzades. Llest en setmanes, no mesos."
+    "title": "Autonymo | Sistemes Operatius d’IA per a la Teva Indústria",
+    "description": "Dissenyem, construïm i despleguem sistemes operatius d’IA complets per a Immobiliària, Salut i solucions empresarials personalitzades. Llest en setmanes, no mesos."
   },
   "nav": {
     "solutions": "Solucions",
@@ -17,15 +17,15 @@
     "newsletterDesc": "Rep les últimes novetats sobre IA i actualitzacions de producte.",
     "blogs": "Blogs",
     "blogsDesc": "Perspectives sobre automatització amb IA, tendències del sector i estratègies.",
-    "caseStudies": "Casos d'Èxit",
+    "caseStudies": "Casos d’Èxit",
     "caseStudiesDesc": "Descobreix com les empreses funcionen amb Autonymo OS.",
     "realEstateOS": "Real Estate OS",
-    "realEstateOSDesc": "Resposta automàtica a leads, gestió d'immobles i automatització de contractes per a agències immobiliàries.",
+    "realEstateOSDesc": "Resposta automàtica a leads, gestió d’immobles i automatització de contractes per a agències immobiliàries.",
     "healthServicesOS": "Health Services OS",
     "healthServicesOSDesc": "Programació intel·ligent, reactivació de pacients i documentació clínica per a consultes modernes.",
     "leadGenerationOS": "Lead Gen OS",
     "leadGenerationOSDesc": "Captació, qualificació, nurturing i trucades sortints impulsades per IA per omplir el teu pipeline automàticament.",
-    "customSolutionsDesc": "Un soci d'IA dedicat integrat al teu negoci: estratègia, construcció i operació contínua com un sol equip.",
+    "customSolutionsDesc": "Un soci d’IA dedicat integrat al teu negoci: estratègia, construcció i operació contínua com un sol equip.",
     "dentalClinicOS": "Dental Clinic OS",
     "dentalClinicOSDesc": "Programació, reactivació de pacients i documentació clínica impulsades per IA per a clíniques dentals modernes.",
     "realEstateOSBullet1": "Resposta a leads en menys de 30 segons",
@@ -34,12 +34,12 @@
     "dentalClinicOSBullet1": "Pacients inactius reactivats per WhatsApp",
     "dentalClinicOSBullet2": "Reserves intel·ligents amb disponibilitat en temps real",
     "dentalClinicOSBullet3": "Recordatoris automàtics que redueixen les absències",
-    "customSolutionsBullet1": "Un soci d'IA dedicat i integrat al teu equip",
-    "customSolutionsBullet2": "De l'estratègia a la construcció i operació contínua",
+    "customSolutionsBullet1": "Un soci d’IA dedicat i integrat al teu equip",
+    "customSolutionsBullet2": "De l’estratègia a la construcció i operació contínua",
     "customSolutionsBullet3": "Adaptat al teu flux de treball i stack exactes",
     "readMore": "Llegir més",
     "mobileMenu": "Menú",
-    "subscribe": "Subscriure's",
+    "subscribe": "Subscriure’s",
     "social": "Social",
     "language": "Idioma",
     "purposeBuilt": "Dissenyat per al teu sector",
@@ -52,9 +52,9 @@
     "socialDesc": "Segueix-nos per a novetats i perspectives sobre IA."
   },
   "hero": {
-    "title": "Construïm i operem sistemes operatius natius d'IA que fan créixer de forma composta les indústries tradicionals.",
+    "title": "Construïm i operem sistemes operatius natius d’IA que fan créixer de forma composta les indústries tradicionals.",
     "titleHighlight": "",
-    "subtitle": "El teu equip d'IA extern. Entrem dins el teu negoci, construïm el que genera impacte real, el fem funcionar i ens assegurem que et mantinguis al capdavant mentre la tecnologia evoluciona.",
+    "subtitle": "El teu equip d’IA extern. Entrem dins el teu negoci, construïm el que genera impacte real, el fem funcionar i ens assegurem que et mantinguis al capdavant mentre la tecnologia evoluciona.",
     "cta": "Reservar Trucada",
     "ctaShort": "Reservar Trucada",
     "ctaSecondary": "Veure Les Nostres Solucions",
@@ -78,21 +78,21 @@
       },
       "custom": {
         "title": "AI Partnership",
-        "intro": "El teu partner de transformació en IA, integrat dins el teu negoci per construir sistemes natius d'IA que multipliquen les teves operacions."
+        "intro": "El teu partner de transformació en IA, integrat dins el teu negoci per construir sistemes natius d’IA que multipliquen les teves operacions."
       }
     },
     "groupHeadings": {
-      "productized": "Els nostres sistemes operatius natius d'IA per indústria",
+      "productized": "Els nostres sistemes operatius natius d’IA per indústria",
       "partnership": "Per a la teva indústria específica"
     }
   },
   "explainer": {
-    "text": "Què és un Sistema Operatiu d'IA?",
-    "description": "Un conjunt connectat d'eines impulsades per IA dissenyades per a la teva indústria: resposta automàtica a leads, programació intel·ligent, generació de documents, dashboards en temps real i més: tot funcionant en conjunt, substituint processos manuals a tota la teva operació."
+    "text": "Què és un Sistema Operatiu d’IA?",
+    "description": "Un conjunt connectat d’eines impulsades per IA dissenyades per a la teva indústria: resposta automàtica a leads, programació intel·ligent, generació de documents, dashboards en temps real i més: tot funcionant en conjunt, substituint processos manuals a tota la teva operació."
   },
   "whatWeBuild": {
     "label": "Què Construïm",
-    "title": "Plataformes d'IA específiques per a la teva indústria, no eines genèriques.",
+    "title": "Plataformes d’IA específiques per a la teva indústria, no eines genèriques.",
     "subtitle": "Cada sistema està construït al voltant dels fluxos de treball reals de la teva indústria: integrat amb les teves eines existents, llest per desplegar en setmanes.",
     "tabs": {
       "realEstate": {
@@ -105,12 +105,12 @@
             "description": "Respon a leads de portals en segons per WhatsApp: no en hores. Pre-qualificació automàtica, enriquiment i distribució intel·ligent a agents."
           },
           "module2": {
-            "title": "Gestió Activa d'Immobles",
-            "description": "Alertes d'immobles estancats, monitorització de preus, informes post-visita a propietaris i seguiment d'activitat per a cada immoble de la teva cartera."
+            "title": "Gestió Activa d’Immobles",
+            "description": "Alertes d’immobles estancats, monitorització de preus, informes post-visita a propietaris i seguiment d’activitat per a cada immoble de la teva cartera."
           },
           "module3": {
             "title": "Motor de Relació amb Propietaris",
-            "description": "Reactiva propietaris anteriors amb informes de mercat i seqüències de nurturing automatitzades. Genera confiança abans que considerin canviar d'agència."
+            "description": "Reactiva propietaris anteriors amb informes de mercat i seqüències de nurturing automatitzades. Genera confiança abans que considerin canviar d’agència."
           },
           "module4": {
             "title": "Automatització de Contractes",
@@ -137,7 +137,7 @@
           },
           "module4": {
             "title": "Assegurances i Documentació",
-            "description": "Automatitza verificacions d'elegibilitat, processament de reclamacions i generació de notes clíniques. Redueix la càrrega administrativa i accelera els reemborsaments."
+            "description": "Automatitza verificacions d’elegibilitat, processament de reclamacions i generació de notes clíniques. Redueix la càrrega administrativa i accelera els reemborsaments."
           }
         }
       },
@@ -152,30 +152,30 @@
           },
           "module2": {
             "title": "Puntuació de Leads amb IA",
-            "description": "Puntua cada lead en temps real segons senyals de comportament, dades firmogràfiques i indicadors d'intenció. Prioritza les oportunitats més calentes."
+            "description": "Puntua cada lead en temps real segons senyals de comportament, dades firmogràfiques i indicadors d’intenció. Prioritza les oportunitats més calentes."
           },
           "module3": {
             "title": "Seqüències de Nurturing Intel·ligents",
-            "description": "Desplega campanyes personalitzades per email, LinkedIn i SMS que adapten contingut i temps segons l'engagement de cada prospecte."
+            "description": "Desplega campanyes personalitzades per email, LinkedIn i SMS que adapten contingut i temps segons l’engagement de cada prospecte."
           },
           "module4": {
             "title": "Trucades Sortints amb IA",
-            "description": "Contacte en fred automatitzat i trucades de seguiment amb agents de veu d'IA que qualifiquen prospectes i reserven reunions en nom teu."
+            "description": "Contacte en fred automatitzat i trucades de seguiment amb agents de veu d’IA que qualifiquen prospectes i reserven reunions en nom teu."
           }
         }
       },
       "custom": {
         "label": "Solucions Personalitzades",
-        "tagline": "Operacions d'IA adaptades a la teva indústria i processos.",
+        "tagline": "Operacions d’IA adaptades a la teva indústria i processos.",
         "cta": "Parlar del Teu Projecte",
         "modules": {
           "module1": {
             "title": "Automatització de Fluxos de Treball",
-            "description": "Mapeja i automatitza qualsevol procés de negoci de principi a fi: des d'enrutament simple de tasques fins a orquestració complexa multi-sistema."
+            "description": "Mapeja i automatitza qualsevol procés de negoci de principi a fi: des d’enrutament simple de tasques fins a orquestració complexa multi-sistema."
           },
           "module2": {
-            "title": "Agents d'IA Personalitzats",
-            "description": "Agents d'IA dissenyats a mida, entrenats amb les teves dades i lògica de negoci. No genèrics: dissenyats al voltant de les teves operacions específiques."
+            "title": "Agents d’IA Personalitzats",
+            "description": "Agents d’IA dissenyats a mida, entrenats amb les teves dades i lògica de negoci. No genèrics: dissenyats al voltant de les teves operacions específiques."
           },
           "module3": {
             "title": "Integració de Sistemes",
@@ -191,12 +191,12 @@
   },
   "industryGrid": {
     "label": "Indústries",
-    "title": "Sistemes operatius d'IA per a la teva indústria.",
-    "subtitle": "Construïm sistemes d'IA complets adaptats a com funciona realment la teva indústria: no automatització genèrica que necessita mesos de personalització.",
+    "title": "Sistemes operatius d’IA per a la teva indústria.",
+    "subtitle": "Construïm sistemes d’IA complets adaptats a com funciona realment la teva indústria: no automatització genèrica que necessita mesos de personalització.",
     "industries": {
       "realEstate": {
         "title": "Immobiliària",
-        "description": "Automatitza resposta a leads, gestió d'immobles i contractes per a agències i gestors de propietats."
+        "description": "Automatitza resposta a leads, gestió d’immobles i contractes per a agències i gestors de propietats."
       },
       "healthcare": {
         "title": "Salut i Dental",
@@ -204,7 +204,7 @@
       },
       "professional": {
         "title": "Serveis Professionals",
-        "description": "Optimitza la captació de clients, generació de documents i fluxos de projecte per a despatxos d'advocats, assessories i consultores."
+        "description": "Optimitza la captació de clients, generació de documents i fluxos de projecte per a despatxos d’advocats, assessories i consultores."
       },
       "industrial": {
         "title": "Industrial i Manufactura",
@@ -216,7 +216,7 @@
       },
       "other": {
         "title": "Altres Indústries",
-        "description": "No veus la teva indústria? Realitzem una auditoria d'IA i construïm exactament el que necessites."
+        "description": "No veus la teva indústria? Realitzem una auditoria d’IA i construïm exactament el que necessites."
       }
     }
   },
@@ -228,9 +228,9 @@
       "title": "Abans: Operacions Manuals",
       "items": {
         "item1": "Els leads esperen hores: els prospectes marxen abans que responguis",
-        "item2": "L'equip s'ofega en administració, entrada de dades i seguiments manuals",
+        "item2": "L’equip s’ofega en administració, entrada de dades i seguiments manuals",
         "item3": "Escalar significa contractar més persones per cada nou compte",
-        "item4": "Informació dispersa entre eines, safates d'entrada i fulls de càlcul",
+        "item4": "Informació dispersa entre eines, safates d’entrada i fulls de càlcul",
         "item5": "Decisions basades en intuïció, no en dades en temps real",
         "item6": "Cada nou procés tarda mesos a configurar-se i optimitzar-se"
       }
@@ -239,7 +239,7 @@
       "title": "Després: Autonymo OS",
       "items": {
         "item1": "La IA respon a consultes en segons, 24/7: cap lead es queda sense atendre",
-        "item2": "Fluxos automatitzats gestionen el treball repetitiu perquè el teu equip s'enfoqui en el valor",
+        "item2": "Fluxos automatitzats gestionen el treball repetitiu perquè el teu equip s’enfoqui en el valor",
         "item3": "El mateix equip gestiona 3-5x més amb la IA fent la feina pesada",
         "item4": "Un sistema unificat amb dashboards en temps real i dades connectades",
         "item5": "La IA detecta insights, identifica patrons i recomana accions",
@@ -250,11 +250,11 @@
   },
   "howItWorks": {
     "label": "Com Treballem",
-    "title": "El teu equip d'operacions d'IA.",
+    "title": "El teu equip d’operacions d’IA.",
     "pillars": {
       "deploy": {
         "title": "Desplegar",
-        "description": "Construïm i configurem sistemes d'IA sobre les teves eines existents. Sense reemplaçaments forçats."
+        "description": "Construïm i configurem sistemes d’IA sobre les teves eines existents. Sense reemplaçaments forçats."
       },
       "train": {
         "title": "Formar",
@@ -285,7 +285,7 @@
     "terms": "Termes de Servei",
     "cookies": "Cookies",
     "copyright": "© {year} Autonymo. Tots els drets reservats.",
-    "tagline": "Autonymo és l'empresa matriu de Keishal i Taolatt.",
+    "tagline": "Autonymo és l’empresa matriu de Keishal i Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -299,10 +299,10 @@
   },
   "manifesto": {
     "heading1": "La IA no és una eina que es compra.",
-    "heading2": "És un <hi>sistema</hi> que s'<hi>opera</hi>.",
-    "paragraph1": "Cada setmana porta un nou model, un nou framework, un nou avenç que podria canviar com funciona el teu negoci. Res d'això importa si ningú ho integra a les teves eines i el manté afilat mentre la resta del mercat encara n'està llegint.",
+    "heading2": "És un <hi>sistema</hi> que <hi>s’opera</hi>.",
+    "paragraph1": "Cada setmana porta un nou model, un nou framework, un nou avenç que podria canviar com funciona el teu negoci. Res d’això importa si ningú ho integra a les teves eines i el manté afilat mentre la resta del mercat encara n’està llegint.",
     "weDo": "Aquest algú som nosaltres.",
-    "paragraph2": "Dissenyem, construïm i operem els sistemes d'IA que fan créixer el teu negoci de forma composta, perquè puguis deixar de comprar dashboards i començar a construir avantatge real.",
+    "paragraph2": "Dissenyem, construïm i operem els sistemes d’IA que fan créixer el teu negoci de forma composta, perquè puguis deixar de comprar dashboards i començar a construir avantatge real.",
     "closing": "",
     "othersLabel": "El que et venen els altres",
     "others1": "Una subscripció SaaS",
@@ -311,7 +311,7 @@
     "others4": "Un pilot que mor al tercer mes",
     "others5": "Un traspàs de consultor",
     "usLabel": "El que construïm i operem",
-    "usTitle": "Un sistema d'IA en marxa",
+    "usTitle": "Un sistema d’IA en marxa",
     "usDescription": "Que creix de forma composta cada mes que opera."
   },
   "whyUs": {
@@ -326,40 +326,40 @@
     "vendorTitle": "Què Fan la Majoria de Proveïdors",
     "vendorItems": {
       "item1": "Et venen una plataforma i desapareixen",
-      "item2": "T'obliguen a adaptar-te al seu flux de treball",
+      "item2": "T’obliguen a adaptar-te al seu flux de treball",
       "item3": "El mateix producte per a cada empresa",
-      "item4": "Mesuren l'èxit per llicències venudes"
+      "item4": "Mesuren l’èxit per llicències venudes"
     },
     "ourTitle": "Què Fem Nosaltres",
     "ourItems": {
       "item1": "Auditem les teves operacions abans de proposar res",
       "item2": "Construïm sobre les teves eines existents. Sense reemplaçaments forçats",
       "item3": "Despleguem solucions adaptades a com funciona realment el teu negoci",
-      "item4": "Mesurem l'èxit per l'impacte que generem per a tu"
+      "item4": "Mesurem l’èxit per l’impacte que generem per a tu"
     },
     "bottomNote": "Per cada €1 gastat en programari, es gasten €6 en la feina que el programari se suposa que ha de fer.",
     "bottomNoteHighlight": "Nosaltres som aquí pels €6."
   },
   "howItWorksSteps": {
     "label": "Com Treballem",
-    "heading": "El camí d'AI\u2011curiós a AI\u2011natiu.",
+    "heading": "El camí d’AI\u2011curiós a AI\u2011natiu.",
     "subtitle": "Tres passos. Un equip. Creixement compost continu.",
     "steps": {
       "step1": {
-        "phase": "Auditoria \u00b7 Setmana 1\u20132",
+        "phase": "Auditoria \u00b7 Setmana 1-2",
         "title": "Trobar què construir.",
-        "description": "Dues setmanes. Tres oportunitats d'IA amb el major ROI, puntuades, prioritzades, pressupostades.",
+        "description": "Dues setmanes. Tres oportunitats d’IA amb el major ROI, puntuades, prioritzades, pressupostades.",
         "tags": ["Sense diagnòstics de 6 mesos", "Sense presentacions de 80 diapositives"]
       },
       "step2": {
-        "phase": "Construcció \u00b7 Setmana 3\u20134",
+        "phase": "Construcció \u00b7 Setmana 3-4",
         "title": "Desplegar el que importa.",
         "description": "Construït i desplegat sobre les teves eines existents. En producció en 30 a 60 dies.",
         "tags": ["Sense reemplaçaments forçats", "Sense pilots morts"]
       },
       "step3": {
         "phase": "Operació \u00b7 Setmana 4+",
-        "title": "Fer-lo funcionar com un membre de l'equip.",
+        "title": "Fer-lo funcionar com un membre de l’equip.",
         "description": "Monitoritzem, iterem, reentrenem i desplegem el que és nou. Cada mes, més afinat.",
         "tags": ["Sense traspassos, mai", "El creixement compost entra en acció"]
       }
@@ -383,7 +383,7 @@
     "ourTitle": "Què Fem Nosaltres",
     "defaultVendor": {
       "item1": "Venen una plataforma, desapareixen",
-      "item2": "T'obliguen a adaptar-te al seu flux de treball",
+      "item2": "T’obliguen a adaptar-te al seu flux de treball",
       "item3": "El mateix producte per a cada empresa",
       "item4": "Sense suport continu"
     },
@@ -400,9 +400,9 @@
     "photoPlaceholder": "Foto",
     "name": "Arnau Fabrega",
     "role": "Founder & CEO",
-    "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d'empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
+    "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d’empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
     "bio2": "No sabien per on començar, i encara que ho sabessin, la tecnologia avança tan de pressa que el que funcionava fa sis mesos ja està desfasat.",
-    "bio3": "Vaig fundar Autonymo perquè volia ser a l'altre costat, no assessorant des d'una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
+    "bio3": "Vaig fundar Autonymo perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
   },
   "dentalClinicOS": {
     "hero": {
@@ -417,24 +417,24 @@
     },
     "problem": {
       "label": "El Problema",
-      "heading": "El cost real d'una cadira buida.",
+      "heading": "El cost real d’una cadira buida.",
       "items": {
         "item1": {
           "title": "Pacients que haurien de tornar",
           "description": "La teva base de dades té centenars de pacients pendents de tractament. Ningú té temps de contactar-los a tots."
         },
         "item2": {
-          "title": "La teva recepció és el coll d'ampolla",
+          "title": "La teva recepció és el coll d’ampolla",
           "description": "Les recepcionistes gestionen trucades, agenda i facturació alhora. La reactivació de pacients sempre és el primer que es deixa."
         },
         "item3": {
           "title": "Ingressos que no veus",
-          "description": "Un pacient que ve per una higiene genera molt més que la tarifa de neteja. Cada pacient que no torna és una cascada de tractaments que no s'inicia mai."
+          "description": "Un pacient que ve per una higiene genera molt més que la tarifa de neteja. Cada pacient que no torna és una cascada de tractaments que no s’inicia mai."
         }
       }
     },
     "whyDifferent": {
-      "industryExample": "No enviem missatges massius. Analitzem l'historial de cada pacient i el reactivem pel tractament específic que necessita.",
+      "industryExample": "No enviem missatges massius. Analitzem l’historial de cada pacient i el reactivem pel tractament específic que necessita.",
       "vendorItems": {
         "item1": "Venen programari, desapareixen",
         "item2": "Envien SMS genèrics a la teva base de dades",
@@ -443,7 +443,7 @@
       },
       "ourItems": {
         "item1": "Ens connectem al teu sistema de gestió de clínica",
-        "item2": "Reactivació personalitzada segons l'historial de tractaments de cada pacient",
+        "item2": "Reactivació personalitzada segons l’historial de tractaments de cada pacient",
         "item3": "Converses per WhatsApp, no spam",
         "item4": "Gestió i optimització mensual"
       }
@@ -454,8 +454,8 @@
       "items": {
         "item1": {
           "title": "Reactivació Intel·ligent de Pacients",
-          "promise": "Els pacients inactius tornen per rebre l'atenció que necessiten.",
-          "description": "Els pacients inactius reben missatges de WhatsApp personalitzats segons el seu historial de tractaments. No un recordatori genèric: una conversa rellevant sobre l'atenció que necessiten. Reserven directament des del xat."
+          "promise": "Els pacients inactius tornen per rebre l’atenció que necessiten.",
+          "description": "Els pacients inactius reben missatges de WhatsApp personalitzats segons el seu historial de tractaments. No un recordatori genèric: una conversa rellevant sobre l’atenció que necessiten. Reserven directament des del xat."
         },
         "item2": {
           "title": "Reserva Intel·ligent de Cites",
@@ -464,7 +464,7 @@
         },
         "item3": {
           "title": "Agenda Multi-Professional",
-          "promise": "L'agenda de cada professional es manté plena, automàticament.",
+          "promise": "L’agenda de cada professional es manté plena, automàticament.",
           "description": "Cites coordinades automàticament entre dentistes, higienistes i sales."
         },
         "item4": {
@@ -480,7 +480,7 @@
       }
     },
     "caseStudy": {
-      "label": "Cas d'Èxit",
+      "label": "Cas d’Èxit",
       "heading": "90 dies. Una clínica. Resultats reals.",
       "description": "Una clínica dental a Espanya amb més de 3 dentistes i més de 9.000 fitxes de pacients.",
       "metrics": {
@@ -497,7 +497,7 @@
           "label": "Ingressos estimats generats"
         }
       },
-      "insight": "Els pacients reactivats no només tornen per a una neteja. Tornen al teu ecosistema, i els teus dentistes descobreixen tractaments que mai s'haurien iniciat d'una altra manera. De mitjana, cada visita reactivada va generar 4x més ingressos dels esperats."
+      "insight": "Els pacients reactivats no només tornen per a una neteja. Tornen al teu ecosistema, i els teus dentistes descobreixen tractaments que mai s’haurien iniciat d’una altra manera. De mitjana, cada visita reactivada va generar 4x més ingressos dels esperats."
     },
     "howWeWork": {
       "label": "Com Treballem",
@@ -533,7 +533,7 @@
           "answer": "No. Els missatges surten del número de la teva clínica. Els pacients veuen la teva clínica, no un tercer."
         },
         "item3": {
-          "question": "La meva recepció haurà d'aprendre alguna cosa nova?",
+          "question": "La meva recepció haurà d’aprendre alguna cosa nova?",
           "answer": "No. Ho fem tot nosaltres. La seva càrrega de feina disminueix: els pacients arriben amb cita ja reservada."
         },
         "item4": {
@@ -542,7 +542,7 @@
         },
         "item5": {
           "question": "Compleix amb el GDPR?",
-          "answer": "Sí. Només contactem pacients que han donat el consentiment. T'ajudem a gestionar els registres de consentiment i a garantir el compliment total."
+          "answer": "Sí. Només contactem pacients que han donat el consentiment. T’ajudem a gestionar els registres de consentiment i a garantir el compliment total."
         },
         "item6": {
           "question": "Què reben realment els pacients?",
@@ -568,8 +568,8 @@
     "hero": {
       "label": "Real Estate OS",
       "heading1": "Els teus agents venen.",
-      "heading2": "La nostra IA fa funcionar l'agència.",
-      "description": "Un sistema operatiu complet impulsat per IA per a la teva agència immobiliària. Construït al voltant dels teus processos, desplegat sobre les teves eines, afinat per a tu. Et guiem a l'onboarding i ens quedem per optimitzar-lo cada mes.",
+      "heading2": "La nostra IA fa funcionar l’agència.",
+      "description": "Un sistema operatiu complet impulsat per IA per a la teva agència immobiliària. Construït al voltant dels teus processos, desplegat sobre les teves eines, afinat per a tu. Et guiem a l’onboarding i ens quedem per optimitzar-lo cada mes.",
       "ctaPrimary": "Reservar Trucada",
       "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "Veure com funciona",
@@ -585,7 +585,7 @@
         },
         "item2": {
           "title": "Leads que es refreden",
-          "description": "Una consulta d'un comprador arriba a les 8 del vespre. Quan el teu agent la veu l'endemà al matí, ja s'han mogut."
+          "description": "Una consulta d’un comprador arriba a les 8 del vespre. Quan el teu agent la veu l’endemà al matí, ja s’han mogut."
         },
         "item3": {
           "title": "Agents fent operacions en lloc de vendre",
@@ -594,17 +594,17 @@
       }
     },
     "whyDifferent": {
-      "industryExample": "Això no és programari de prestatgeria. És un sistema operatiu construït al voltant de la teva agència. El teu equip l'opera, i nosaltres ens assegurem que cada cop sigui millor.",
+      "industryExample": "Això no és programari de prestatgeria. És un sistema operatiu construït al voltant de la teva agència. El teu equip l’opera, i nosaltres ens assegurem que cada cop sigui millor.",
       "vendorItems": {
         "item1": "Et venen un CRM genèric",
-        "item2": "Assumeixen que el teu equip ja se n'espavilarà",
+        "item2": "Assumeixen que el teu equip ja se n’espavilarà",
         "item3": "La mateixa plataforma per a cada agència",
         "item4": "Sense suport continu"
       },
       "ourItems": {
         "item1": "Construïm un sistema adaptat a com funciona realment la teva agència",
         "item2": "Despleguem sobre les teves eines i portals existents",
-        "item3": "Guiem el teu equip a l'onboarding",
+        "item3": "Guiem el teu equip a l’onboarding",
         "item4": "Monitoritzem i optimitzem mensualment"
       }
     },
@@ -616,15 +616,15 @@
         "item1": {
           "title": "CRM Intel·ligent",
           "promise": "Totes les consultes en un sol lloc, en temps real.",
-          "description": "Un CRM construït específicament per a la teva agència: no una plataforma genèrica a la qual t'has d'adaptar. Connectat a tots els portals immobiliaris principals del teu mercat, de manera que totes les consultes flueixen a un sol lloc en temps real. Gestió de leads, coordinació de visites, seguiments automàtics, seguiment d'operacions i activitat dels agents: tot en un sistema dissenyat al voltant de com treballa realment el teu equip."
+          "description": "Un CRM construït específicament per a la teva agència: no una plataforma genèrica a la qual t’has d’adaptar. Connectat a tots els portals immobiliaris principals del teu mercat, de manera que totes les consultes flueixen a un sol lloc en temps real. Gestió de leads, coordinació de visites, seguiments automàtics, seguiment d’operacions i activitat dels agents: tot en un sistema dissenyat al voltant de com treballa realment el teu equip."
         },
         "item2": {
           "title": "Captació de Propietaris",
           "promise": "Contacta amb nous propietaris abans que els teus competidors.",
-          "description": "Els nous propietaris que entren al mercat a la teva zona són identificats i marcats automàticament. El teu equip els contacta primer: abans que els competidors sàpiguen que existeix l'anunci. Contacte automatitzat, fluxos de revisió-abans-d'enviar, i un pipeline per fer seguiment de cada oportunitat."
+          "description": "Els nous propietaris que entren al mercat a la teva zona són identificats i marcats automàticament. El teu equip els contacta primer: abans que els competidors sàpiguen que existeix l’anunci. Contacte automatitzat, fluxos de revisió-abans-d’enviar, i un pipeline per fer seguiment de cada oportunitat."
         },
         "item3": {
-          "title": "Gestió d'Operacions",
+          "title": "Gestió d’Operacions",
           "promise": "Contractes en minuts, no en hores.",
           "description": "Contractes generats en minuts, no en hores. Documents bilingües, agenda, coordinació de tasques i informes: tot automatitzat. Els teus agents deixen de fer administració i comencen a fer allò pel que els vas contractar."
         },
@@ -636,17 +636,17 @@
       }
     },
     "caseStudy": {
-      "label": "Cas d'Èxit",
+      "label": "Cas d’Èxit",
       "heading": "Ja en marxa. Ja aportant resultats.",
       "description": "El Real Estate OS està actiu per a agències de tota Espanya. Això és el que canvia un cop desplegat.",
       "metrics": {
         "item1": {
-          "value": "Resposta a leads: de més d'una hora a menys de 30 segons",
-          "label": "Cada lead que entra rep una resposta instantània i personalitzada i es qualifica automàticament. Els teus agents només dediquen temps a leads realment interessats: s'acabà perseguir camins morts."
+          "value": "Resposta a leads: de més d’una hora a menys de 30 segons",
+          "label": "Cada lead que entra rep una resposta instantània i personalitzada i es qualifica automàticament. Els teus agents només dediquen temps a leads realment interessats: s’acabà perseguir camins morts."
         },
         "item2": {
           "value": "Visites que es reserven soles",
-          "label": "Un cop qualificat el lead i l'agent confirma interès, les visites es programen automàticament. Sense anades i vingudes, sense oportunitats perdudes."
+          "label": "Un cop qualificat el lead i l’agent confirma interès, les visites es programen automàticament. Sense anades i vingudes, sense oportunitats perdudes."
         },
         "item3": {
           "value": "Propietaris sempre informats",
@@ -658,7 +658,7 @@
         },
         "item5": {
           "value": "Centenars de nous contactes de propietaris cada mes",
-          "label": "El motor de captació et connecta amb propietaris fora de mercat a la teva zona abans que publiquin. El teu pipeline d'exclusives creix en pilot automàtic."
+          "label": "El motor de captació et connecta amb propietaris fora de mercat a la teva zona abans que publiquin. El teu pipeline d’exclusives creix en pilot automàtic."
         }
       },
       "insight": "Cada desplegament és diferent perquè cada agència és diferent. Afinem el sistema al teu mercat, al teu equip i als teus fluxos de treball, i ens quedem per gestionar-lo i millorar-lo mes rere mes."
@@ -690,19 +690,19 @@
       "items": {
         "item1": {
           "question": "Hem de canviar el nostre CRM?",
-          "answer": "No, ens podem integrar amb l'actual. Però el nostre CRM està construït específicament per a agències immobiliàries i és més potent que qualsevol altra cosa del mercat. La majoria d'agències que el veuen opten per migrar. Val la pena parlar-ne."
+          "answer": "No, ens podem integrar amb l’actual. Però el nostre CRM està construït específicament per a agències immobiliàries i és més potent que qualsevol altra cosa del mercat. La majoria d’agències que el veuen opten per migrar. Val la pena parlar-ne."
         },
         "item2": {
-          "question": "Els nostres agents hauran d'aprendre programari nou?",
-          "answer": "Guiem el teu equip durant tot l'onboarding. El sistema està dissenyat per encaixar en el teu flux de treball existent, i ens assegurem que tothom es trobi còmode abans d'arrencar."
+          "question": "Els nostres agents hauran d’aprendre programari nou?",
+          "answer": "Guiem el teu equip durant tot l’onboarding. El sistema està dissenyat per encaixar en el teu flux de treball existent, i ens assegurem que tothom es trobi còmode abans d’arrencar."
         },
         "item3": {
           "question": "I si la meva agència és petita?",
-          "answer": "L'OS està dissenyat per a agències d'almenys 3–5 persones. Dit això, ens podem adaptar a equips més petits si cal."
+          "answer": "L’OS està dissenyat per a agències d’almenys 3-5 persones. Dit això, ens podem adaptar a equips més petits si cal."
         },
         "item4": {
           "question": "En què és diferent de comprar un CRM?",
-          "answer": "Un CRM és una eina que configures tu mateix. Això és un sistema operatiu que construïm i afinem per a la teva agència. Nosaltres gestionem l'onboarding i ens mantenim implicats mensualment perquè evolucioni amb el teu negoci."
+          "answer": "Un CRM és una eina que configures tu mateix. Això és un sistema operatiu que construïm i afinem per a la teva agència. Nosaltres gestionem l’onboarding i ens mantenim implicats mensualment perquè evolucioni amb el teu negoci."
         },
         "item5": {
           "question": "Amb quins portals us integreu?",
@@ -710,14 +710,14 @@
         },
         "item6": {
           "question": "Amb quina rapidesa veurem resultats?",
-          "answer": "Primer mòdul en marxa en 2–4 setmanes. La majoria d'agències veuen impacte mesurable durant el primer mes."
+          "answer": "Primer mòdul en marxa en 2-4 setmanes. La majoria d’agències veuen impacte mesurable durant el primer mes."
         },
         "item7": {
           "question": "Què passa si parem?",
           "answer": "Et quedes amb tot el que hem construït. Sense permanències."
         },
         "item8": {
-          "question": "Treballeu fora d'Espanya?",
+          "question": "Treballeu fora d’Espanya?",
           "answer": "Sí. El nostre equip treballa en anglès, espanyol i català."
         }
       }
@@ -730,8 +730,8 @@
   "customSolutionsPage": {
     "hero": {
       "label": "Solucions Personalitzades",
-      "heading": "Operacions d'IA fetes per al teu negoci. No a partir d'una plantilla.",
-      "description": "Per a empreses amb processos que no encaixen en un producte estàndard. Auditem les teves operacions, construïm sistemes d'IA al voltant de com treballes realment i ens quedem per gestionar-los i millorar-los.",
+      "heading": "Operacions d’IA fetes per al teu negoci. No a partir d’una plantilla.",
+      "description": "Per a empreses amb processos que no encaixen en un producte estàndard. Auditem les teves operacions, construïm sistemes d’IA al voltant de com treballes realment i ens quedem per gestionar-los i millorar-los.",
       "ctaPrimary": "Reservar Trucada",
       "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "Veure com funciona",
@@ -743,15 +743,15 @@
       "items": {
         "item1": {
           "title": "Processos manuals que es mengen el teu marge",
-          "description": "El teu equip dedica hores a feina repetitiva que no aporta valor. Entrada de dades, generació d'informes, coordinació, seguiments. Tot suma."
+          "description": "El teu equip dedica hores a feina repetitiva que no aporta valor. Entrada de dades, generació d’informes, coordinació, seguiments. Tot suma."
         },
         "item2": {
           "title": "Eines que resolien el 60% del problema",
-          "description": "Has provat programari de prestatgeria. Mai acaba d'encaixar. L'altre 40% continua sent manual."
+          "description": "Has provat programari de prestatgeria. Mai acaba d’encaixar. L’altre 40% continua sent manual."
         },
         "item3": {
           "title": "Sense expertesa interna en IA",
-          "description": "No tens l'equip per avaluar el que és possible, construir la solució correcta o mantenir-la amb el temps."
+          "description": "No tens l’equip per avaluar el que és possible, construir la solució correcta o mantenir-la amb el temps."
         }
       }
     },
@@ -783,7 +783,7 @@
         "item5": {
           "title": "Dashboards i Informes",
           "promise": "Veu el que importa en temps real.",
-          "description": "Dashboards en viu que mostren el que importa. S'acabà compilar fulls de càlcul."
+          "description": "Dashboards en viu que mostren el que importa. S’acabà compilar fulls de càlcul."
         }
       }
     },
@@ -820,7 +820,7 @@
         "step2": {
           "label": "Pas 2",
           "title": "Construïm i despleguem",
-          "description": "Agafem l'oportunitat de major impacte i la construïm. En marxa, funcionant, integrada amb les teves eines existents. Sense pilots que no van enlloc."
+          "description": "Agafem l’oportunitat de major impacte i la construïm. En marxa, funcionant, integrada amb les teves eines existents. Sense pilots que no van enlloc."
         },
         "step3": {
           "label": "Pas 3",
@@ -834,9 +834,9 @@
       "heading": "Referències de projectes personalitzats.",
       "items": {
         "item1": {
-          "value": "8–12",
-          "label": "Oportunitats d'automatització identificades",
-          "description": "L'auditoria mitjana identifica 8–12 oportunitats d'automatització"
+          "value": "8-12",
+          "label": "Oportunitats d’automatització identificades",
+          "description": "L’auditoria mitjana identifica 8-12 oportunitats d’automatització"
         },
         "item2": {
           "value": "4 setmanes",
@@ -861,11 +861,11 @@
       "items": {
         "item1": {
           "question": "Amb quins sectors treballeu?",
-          "answer": "Amb qualsevol. Hem treballat amb immobiliària, salut i serveis professionals. L'enfocament és el mateix: auditar, construir, gestionar."
+          "answer": "Amb qualsevol. Hem treballat amb immobiliària, salut i serveis professionals. L’enfocament és el mateix: auditar, construir, gestionar."
         },
         "item2": {
           "question": "Quant costa?",
-          "answer": "Depèn del projecte. Funcionem millor com el teu equip intern d'IA durant un període llarg, normalment diversos mesos. Dit això, som flexibles al principi perquè puguis veure la nostra feina i generar confiança abans de comprometre't a llarg termini."
+          "answer": "Depèn del projecte. Funcionem millor com el teu equip intern d’IA durant un període llarg, normalment diversos mesos. Dit això, som flexibles al principi perquè puguis veure la nostra feina i generar confiança abans de comprometre’t a llarg termini."
         },
         "item3": {
           "question": "Cal tenir coneixements tècnics?",
@@ -929,20 +929,20 @@
       "label": "Sobre Autonymo",
       "heading1": "La transició cap a la IA està passant.",
       "heading2": "Ens assegurem que hi siguis al costat correcte.",
-      "description": "No com a consultor. No com a proveïdor de programari. Com el teu equip d'IA extern."
+      "description": "No com a consultor. No com a proveïdor de programari. Com el teu equip d’IA extern."
     },
     "theShift": {
       "label": "El Canvi",
       "heading": "Està passant una cosa permanent.",
-      "paragraph1": "Durant dècades, la distància entre les grans corporacions i les petites empreses es definia per l'accés. Accés al talent, a la tecnologia, a la infraestructura que creix de forma composta amb el temps.",
-      "paragraph2": "La IA està tancant aquesta distància. Per primera vegada, una empresa industrial de 30 persones pot operar amb la mateixa infraestructura d'intel·ligència que una Fortune 500. Les eines existeixen. Els models existeixen. El que falta a la majoria d'empreses és l'equip que ho munti i ho mantingui en marxa.",
-      "closing": "Aquesta és l'oportunitat per a la qual es va crear Autonymo."
+      "paragraph1": "Durant dècades, la distància entre les grans corporacions i les petites empreses es definia per l’accés. Accés al talent, a la tecnologia, a la infraestructura que creix de forma composta amb el temps.",
+      "paragraph2": "La IA està tancant aquesta distància. Per primera vegada, una empresa industrial de 30 persones pot operar amb la mateixa infraestructura d’intel·ligència que una Fortune 500. Les eines existeixen. Els models existeixen. El que falta a la majoria d’empreses és l’equip que ho munti i ho mantingui en marxa.",
+      "closing": "Aquesta és l’oportunitat per a la qual es va crear Autonymo."
     },
     "whoWeAre": {
       "label": "Qui Som",
       "heading": "No consultem. Construïm.",
-      "paragraph1": "Autonymo és un equip d'enginyeria d'IA amb seu a Barcelona. Treballem amb petites i mitjanes empreses que saben que la IA importa però no saben per on començar, o que ja ho han provat i n'han quedat decebudes.",
-      "paragraph2": "Entrem dins el negoci. Dediquem temps a entendre com funciona realment: els processos, els colls d'ampolla, les solucions provisionals que fa anys que hi són. Després construïm sistemes d'IA que encaixen en aquesta realitat. Ni plantilles. Ni plataformes de prestatgeria. Sistemes dissenyats per a com opera aquesta empresa en concret.",
+      "paragraph1": "Autonymo és un equip d’enginyeria d’IA amb seu a Barcelona. Treballem amb petites i mitjanes empreses que saben que la IA importa però no saben per on començar, o que ja ho han provat i n’han quedat decebudes.",
+      "paragraph2": "Entrem dins el negoci. Dediquem temps a entendre com funciona realment: els processos, els colls d’ampolla, les solucions provisionals que fa anys que hi són. Després construïm sistemes d’IA que encaixen en aquesta realitat. Ni plantilles. Ni plataformes de prestatgeria. Sistemes dissenyats per a com opera aquesta empresa en concret.",
       "paragraph3": "Despleguem ràpid. Primera solució en marxa en 4 setmanes. Després ens quedem, monitoritzant, millorant i expandint a mesura que el negoci creix i la IA evoluciona.",
       "paragraph4": "Cada millora de la IA fa que el nostre servei sigui més ràpid, més barat i més potent. Ho traslladem directament als nostres clients.",
       "highlights": {
@@ -965,23 +965,23 @@
     },
     "whyWeExist": {
       "label": "Per Què Existim",
-      "heading": "Per cada €1 gastat en programari, se'n gasten €6 en la feina.",
+      "heading": "Per cada €1 gastat en programari, se’n gasten €6 en la feina.",
       "paragraph1": "La indústria de la IA ha dedicat anys a construir eines per a les persones que fan la feina. Copilots. Assistents. Capes de productivitat.",
-      "paragraph2": "Creiem que la gran oportunitat és diferent. La majoria d'empreses no necessiten una altra eina. Necessiten algú que faci la feina, i que la faci millor del que cap equip humà podria.",
+      "paragraph2": "Creiem que la gran oportunitat és diferent. La majoria d’empreses no necessiten una altra eina. Necessiten algú que faci la feina, i que la faci millor del que cap equip humà podria.",
       "closing": "Això és el que fan els autopilots. I això és el que construïm."
     },
     "theTeam": {
-      "label": "L'Equip",
-      "heading": "Amb seu a Barcelona. Creats per moure'ns ràpid.",
-      "description1": "Som un equip reduït d'enginyers, operadors i constructors. Ens movem ràpid, cuidem cada client com si fos el nostre propi negoci, i ens mesurem per l'impacte que generem, no per les hores que facturem ni les llicències que venem.",
+      "label": "L’Equip",
+      "heading": "Amb seu a Barcelona. Creats per moure’ns ràpid.",
+      "description1": "Som un equip reduït d’enginyers, operadors i constructors. Ens movem ràpid, cuidem cada client com si fos el nostre propi negoci, i ens mesurem per l’impacte que generem, no per les hores que facturem ni les llicències que venem.",
       "description2": "Som al principi. Tenim fam. I creiem que les empreses que adoptin la IA ara definiran les seves indústries durant la propera dècada.",
       "founder": {
         "name": "Arnau Fabrega",
         "role": "Founder & CEO",
         "imageAlt": "Arnau Fabrega",
-        "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d'empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
+        "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d’empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
         "bio2": "No sabien per on començar, i encara que ho sabessin, la tecnologia avança tan de pressa que el que funcionava fa sis mesos ja està desfasat.",
-        "bio3": "Vaig fundar Autonymo perquè volia ser a l'altre costat, no assessorant des d'una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
+        "bio3": "Vaig fundar Autonymo perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
       }
     },
     "cta": {
@@ -997,34 +997,34 @@
     "hero": {
       "label": "Blog",
       "heading": "Perspectives sobre IA, automatització i creixement.",
-      "description": "Anàlisis a fons de les estratègies, la tecnologia i els casos d'èxit darrere de l'automatització moderna amb IA."
+      "description": "Anàlisis a fons de les estratègies, la tecnologia i els casos d’èxit darrere de l’automatització moderna amb IA."
     },
     "featured": {
       "badge": "Destacat",
-      "title": "Per Què els Agents d'IA Són el Futur de les Operacions Empresarials",
-      "excerpt": "El pas de l'automatització estàtica als agents intel·ligents està transformant com operen les empreses. Això és el que els líders empresarials han de saber sobre la revolució dels agents, i com preparar-s'hi.",
-      "category": "Estratègia d'IA",
+      "title": "Per Què els Agents d’IA Són el Futur de les Operacions Empresarials",
+      "excerpt": "El pas de l’automatització estàtica als agents intel·ligents està transformant com operen les empreses. Això és el que els líders empresarials han de saber sobre la revolució dels agents, i com preparar-s’hi.",
+      "category": "Estratègia d’IA",
       "date": "Pròximament",
       "readTime": "8 min de lectura"
     },
     "posts": {
       "post1": {
-        "title": "Com Vam Reduir el Temps de Processament d'Assegurances un 35% amb IA",
-        "excerpt": "Una anàlisi a fons de com Health Services OS automatitza les verificacions d'elegibilitat, les preautoritzacions i les reclamacions per a consultes sanitàries.",
-        "category": "Cas d'Èxit",
+        "title": "Com Vam Reduir el Temps de Processament d’Assegurances un 35% amb IA",
+        "excerpt": "Una anàlisi a fons de com Health Services OS automatitza les verificacions d’elegibilitat, les preautoritzacions i les reclamacions per a consultes sanitàries.",
+        "category": "Cas d’Èxit",
         "date": "Pròximament",
         "readTime": "6 min de lectura"
       },
       "post2": {
-        "title": "La Guia de l'Agent Immobiliari per al Nurturing de Leads amb IA",
+        "title": "La Guia de l’Agent Immobiliari per al Nurturing de Leads amb IA",
         "excerpt": "De leads freds a prospectes calents: com les seqüències de seguiment impulsades per IA estan canviant el joc per als equips immobiliaris.",
         "category": "Immobiliària",
         "date": "Pròximament",
         "readTime": "5 min de lectura"
       },
       "post3": {
-        "title": "Construir Agents d'IA Personalitzats: El Nostre Enfocament Tècnic",
-        "excerpt": "Una mirada entre bastidors a com dissenyem, entrenem i despleguem agents d'IA fets a mida per a clients corporatius.",
+        "title": "Construir Agents d’IA Personalitzats: El Nostre Enfocament Tècnic",
+        "excerpt": "Una mirada entre bastidors a com dissenyem, entrenem i despleguem agents d’IA fets a mida per a clients corporatius.",
         "category": "Enginyeria",
         "date": "Pròximament",
         "readTime": "10 min de lectura"
@@ -1032,9 +1032,9 @@
     },
     "newsletter": {
       "heading": "Mantén-te al capdavant.",
-      "description": "Rep les nostres últimes perspectives sobre automatització amb IA, directament a la teva safata d'entrada. Sense spam, només valor.",
+      "description": "Rep les nostres últimes perspectives sobre automatització amb IA, directament a la teva safata d’entrada. Sense spam, només valor.",
       "placeholder": "el-teu@email.com",
-      "button": "Subscriure's"
+      "button": "Subscriure’s"
     }
   }
 }
