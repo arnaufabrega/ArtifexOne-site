@@ -41,12 +41,12 @@ const Footer = () => {
             <div className="col-span-2">
               <Link href="/" className="flex items-center mb-4 group">
                 <Image
-                  src="/wordmark-charcoal-transparent.png"
+                  src="/logos/artifexone-mark.svg"
                   alt="ArtifexOne"
-                  width={900}
-                  height={160}
+                  width={1080}
+                  height={1080}
                   className="shrink-0 w-auto"
-                  style={{ height: "32px" }}
+                  style={{ height: "40px" }}
                   loading="lazy"
                 />
               </Link>

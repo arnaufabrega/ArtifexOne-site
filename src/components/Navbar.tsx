@@ -108,13 +108,13 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
-              src="/wordmark-charcoal-transparent.png"
+              src="/logos/artifexone-mark.svg"
               alt="ArtifexOne"
-              width={900}
-              height={160}
+              width={1080}
+              height={1080}
               priority
               className="shrink-0 w-auto"
-              style={{ height: "28px" }}
+              style={{ height: "32px" }}
             />
           </Link>
 
